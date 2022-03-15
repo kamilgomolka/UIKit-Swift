@@ -11,11 +11,7 @@ class MenuViewController<MenuItemType: MenuItemProtocol>: UIViewController, UITa
     
     // MARK: - Properties
     
-    var tableView: UITableView = {
-        let tableView = UITableView(frame: .zero, style: .insetGrouped)
-        tableView.register(MenuCell.self, forCellReuseIdentifier: MenuCell.identifier)
-        return tableView
-    }()
+    let tableView = UITableView(frame: .zero, style: .insetGrouped)
     
     // MARK: - Lifecycle
     
@@ -28,6 +24,7 @@ class MenuViewController<MenuItemType: MenuItemProtocol>: UIViewController, UITa
     func setupTableView() {
         tableView.dataSource = self
         tableView.delegate = self
+        tableView.register(MenuCell.self, forCellReuseIdentifier: MenuCell.identifier)
         
         view.addSubview(tableView)
         tableView.translatesAutoresizingMaskIntoConstraints = false
