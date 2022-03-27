@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2606823827EE140E00B641B2 /* ButtonClicksCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606823727EE140E00B641B2 /* ButtonClicksCounter.swift */; };
+		2606823B27EE161400B641B2 /* AllControlsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606823A27EE161400B641B2 /* AllControlsButtonView.swift */; };
+		2606823E27EE163000B641B2 /* AllControlsBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606823D27EE163000B641B2 /* AllControlsBaseView.swift */; };
+		2606824027EE3B3E00B641B2 /* AllControlsSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606823F27EE3B3E00B641B2 /* AllControlsSwitchView.swift */; };
+		2606824227EE3D4900B641B2 /* AllControlsSegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606824127EE3D4900B641B2 /* AllControlsSegmentedControlView.swift */; };
+		2606824427EE3D5C00B641B2 /* AllControlsTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606824327EE3D5C00B641B2 /* AllControlsTextFieldView.swift */; };
+		2606824627EE3D6C00B641B2 /* AllControlsStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606824527EE3D6C00B641B2 /* AllControlsStepperView.swift */; };
+		2606824827EE3D7B00B641B2 /* AllControlsSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606824727EE3D7B00B641B2 /* AllControlsSliderView.swift */; };
+		2606824A27EE3D8A00B641B2 /* AllControlsActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606824927EE3D8A00B641B2 /* AllControlsActivityIndicatorView.swift */; };
+		2606824C27EE3D9700B641B2 /* AllControlsProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606824B27EE3D9700B641B2 /* AllControlsProgressView.swift */; };
+		2606824E27EE3DA000B641B2 /* AllControlsPageControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606824D27EE3DA000B641B2 /* AllControlsPageControlView.swift */; };
 		26B430F027E1154800F00210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B430EF27E1154800F00210 /* Assets.xcassets */; };
 		26B430F327E1154800F00210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B430F127E1154800F00210 /* LaunchScreen.storyboard */; };
 		26B4310D27E11E1600F00210 /* MenuItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B430FF27E11E1600F00210 /* MenuItemProtocol.swift */; };
@@ -21,6 +32,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2606823727EE140E00B641B2 /* ButtonClicksCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonClicksCounter.swift; sourceTree = "<group>"; };
+		2606823A27EE161400B641B2 /* AllControlsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsButtonView.swift; sourceTree = "<group>"; };
+		2606823D27EE163000B641B2 /* AllControlsBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsBaseView.swift; sourceTree = "<group>"; };
+		2606823F27EE3B3E00B641B2 /* AllControlsSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsSwitchView.swift; sourceTree = "<group>"; };
+		2606824127EE3D4900B641B2 /* AllControlsSegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsSegmentedControlView.swift; sourceTree = "<group>"; };
+		2606824327EE3D5C00B641B2 /* AllControlsTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsTextFieldView.swift; sourceTree = "<group>"; };
+		2606824527EE3D6C00B641B2 /* AllControlsStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsStepperView.swift; sourceTree = "<group>"; };
+		2606824727EE3D7B00B641B2 /* AllControlsSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsSliderView.swift; sourceTree = "<group>"; };
+		2606824927EE3D8A00B641B2 /* AllControlsActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsActivityIndicatorView.swift; sourceTree = "<group>"; };
+		2606824B27EE3D9700B641B2 /* AllControlsProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsProgressView.swift; sourceTree = "<group>"; };
+		2606824D27EE3DA000B641B2 /* AllControlsPageControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsPageControlView.swift; sourceTree = "<group>"; };
 		26B430E327E1154800F00210 /* UIKit-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B430EF27E1154800F00210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26B430F227E1154800F00210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +69,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2606823527EE140100B641B2 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				2606823627EE140600B641B2 /* ButtonClicksCounter */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		2606823627EE140600B641B2 /* ButtonClicksCounter */ = {
+			isa = PBXGroup;
+			children = (
+				2606823727EE140E00B641B2 /* ButtonClicksCounter.swift */,
+			);
+			path = ButtonClicksCounter;
+			sourceTree = "<group>";
+		};
+		2606823927EE15E100B641B2 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				2606823C27EE162200B641B2 /* Base view */,
+				2606823A27EE161400B641B2 /* AllControlsButtonView.swift */,
+				2606823F27EE3B3E00B641B2 /* AllControlsSwitchView.swift */,
+				2606824127EE3D4900B641B2 /* AllControlsSegmentedControlView.swift */,
+				2606824327EE3D5C00B641B2 /* AllControlsTextFieldView.swift */,
+				2606824527EE3D6C00B641B2 /* AllControlsStepperView.swift */,
+				2606824727EE3D7B00B641B2 /* AllControlsSliderView.swift */,
+				2606824927EE3D8A00B641B2 /* AllControlsActivityIndicatorView.swift */,
+				2606824B27EE3D9700B641B2 /* AllControlsProgressView.swift */,
+				2606824D27EE3DA000B641B2 /* AllControlsPageControlView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		2606823C27EE162200B641B2 /* Base view */ = {
+			isa = PBXGroup;
+			children = (
+				2606823D27EE163000B641B2 /* AllControlsBaseView.swift */,
+			);
+			path = "Base view";
+			sourceTree = "<group>";
+		};
 		26B430DA27E1154700F00210 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				26B4310527E11E1600F00210 /* AllControls */,
+				2606823527EE140100B641B2 /* Button */,
 			);
 			path = "Main Menu ViewControllers";
 			sourceTree = "<group>";
@@ -131,6 +195,7 @@
 		26B4310527E11E1600F00210 /* AllControls */ = {
 			isa = PBXGroup;
 			children = (
+				2606823927EE15E100B641B2 /* Subviews */,
 				26B4310627E11E1600F00210 /* AllControlsViewController.swift */,
 			);
 			path = AllControls;
@@ -226,12 +291,23 @@
 			files = (
 				26B4311427E11E1600F00210 /* AppDelegate.swift in Sources */,
 				26B4310E27E11E1600F00210 /* MenuCell.swift in Sources */,
+				2606824627EE3D6C00B641B2 /* AllControlsStepperView.swift in Sources */,
+				2606824427EE3D5C00B641B2 /* AllControlsTextFieldView.swift in Sources */,
+				2606824027EE3B3E00B641B2 /* AllControlsSwitchView.swift in Sources */,
+				2606824227EE3D4900B641B2 /* AllControlsSegmentedControlView.swift in Sources */,
 				26B4311527E11E1600F00210 /* SceneDelegate.swift in Sources */,
+				2606824A27EE3D8A00B641B2 /* AllControlsActivityIndicatorView.swift in Sources */,
+				2606824C27EE3D9700B641B2 /* AllControlsProgressView.swift in Sources */,
+				2606823E27EE163000B641B2 /* AllControlsBaseView.swift in Sources */,
 				26B4311027E11E1600F00210 /* BaseViewController.swift in Sources */,
 				26B4310F27E11E1600F00210 /* MenuViewController.swift in Sources */,
+				2606823827EE140E00B641B2 /* ButtonClicksCounter.swift in Sources */,
+				2606824827EE3D7B00B641B2 /* AllControlsSliderView.swift in Sources */,
 				26B4311127E11E1600F00210 /* AllControlsViewController.swift in Sources */,
+				2606823B27EE161400B641B2 /* AllControlsButtonView.swift in Sources */,
 				26B4311327E11E1600F00210 /* MainMenuViewController.swift in Sources */,
 				26B4311227E11E1600F00210 /* MainMenuItem.swift in Sources */,
+				2606824E27EE3DA000B641B2 /* AllControlsPageControlView.swift in Sources */,
 				26B4310D27E11E1600F00210 /* MenuItemProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

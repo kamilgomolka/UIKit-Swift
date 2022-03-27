@@ -29,5 +29,5 @@ class MenuCell: UITableViewCell {
     
     func initialize() {
         self.accessoryType = .disclosureIndicator
-    }
+    }    
 }

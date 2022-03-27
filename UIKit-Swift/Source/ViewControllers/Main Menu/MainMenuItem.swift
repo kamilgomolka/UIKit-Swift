@@ -15,6 +15,6 @@ enum MainMenuItem: String, MenuItemProtocol {
     }
     
     var viewController: UIViewController? {
-        return nil
+        return AllControlsViewController()
     }
 }
