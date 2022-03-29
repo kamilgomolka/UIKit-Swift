@@ -52,15 +52,15 @@ class FontWeightsViewController: UIViewController {
         contentView.addSubview(stackView)
         
         let labels = [
-            newLabel(weight: .ultraLight, text: "Ultra light"),
-            newLabel(weight: .thin, text: "Thin"),
-            newLabel(weight: .light, text: "Light"),
-            newLabel(weight: .regular, text: "Regular"),
-            newLabel(weight: .medium, text: "Medium"),
-            newLabel(weight: .semibold, text: "Semibold"),
-            newLabel(weight: .bold, text: "Bold"),
-            newLabel(weight: .heavy, text: "Heavy"),
-            newLabel(weight: .black, text: "Black")
+            newLabel(text: "Ultra light",   weight: .ultraLight),
+            newLabel(text: "Thin",          weight: .thin),
+            newLabel(text: "Light",         weight: .light),
+            newLabel(text: "Regular",       weight: .regular),
+            newLabel(text: "Medium",        weight: .medium),
+            newLabel(text: "Semibold",      weight: .semibold),
+            newLabel(text: "Bold",          weight: .bold),
+            newLabel(text: "Heavy",         weight: .heavy),
+            newLabel(text: "Black",         weight: .black)
         ]
         
         for label in labels {
@@ -68,7 +68,7 @@ class FontWeightsViewController: UIViewController {
         }
     }
     
-    func newLabel(weight: UIFont.Weight, text: String) -> UILabel {
+    func newLabel(text: String, weight: UIFont.Weight) -> UILabel {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 17.0, weight: weight)
         label.text = text

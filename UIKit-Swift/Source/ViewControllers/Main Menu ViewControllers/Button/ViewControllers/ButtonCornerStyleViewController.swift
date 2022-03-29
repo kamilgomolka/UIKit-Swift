@@ -1,13 +1,13 @@
 //
-//  TextStylesViewController.swift
-//  UIKit-Swift
+//  ButtonCornerStyleViewController.swift
+//  UIKit-Storyboard
 //
-//  Created by Kamil Gomółka on 27/03/2022.
+//  Created by Kamil Gomółka on 21/01/2022.
 //
 
 import UIKit
 
-class TextStylesViewController: UIViewController {
+class ButtonCornerStyleViewController: UIViewController {
     
     // MARK: - Properties
     
@@ -33,6 +33,9 @@ class TextStylesViewController: UIViewController {
         return stackView
     }()
     
+    var buttons: [UIButton] = []
+    let clicksCounter = ButtonClicksCounter()
+    
     // MARK: - Livecycle
     
     override func loadView() {
@@ -44,6 +47,12 @@ class TextStylesViewController: UIViewController {
         createConstraints()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        clicksCounter.setup(buttons: buttons)
+    }
+    
     // MARK: - Initialization
     
     func addSubviews() {
@@ -51,42 +60,44 @@ class TextStylesViewController: UIViewController {
         scrollView.addSubview(contentView)
         contentView.addSubview(stackView)
         
-        let labels = [
-            newLabel(text: "Caption2",      textStyle: .caption2),
-            newLabel(text: "Caption1",      textStyle: .caption1),
-            newLabel(text: "Footnote",      textStyle: .footnote),
-            newLabel(text: "Subheadline",   textStyle: .subheadline),
-            newLabel(text: "Callout",       textStyle: .callout),
-            newLabel(text: "Body",          textStyle: .body),
-            newLabel(text: "Headline",      textStyle: .headline),
-            newLabel(text: "Title3",        textStyle: .title3),
-            newLabel(text: "Title2",        textStyle: .title2),
-            newLabel(text: "Title1",        textStyle: .title1),
-            newLabel(text: "LargeTitle",    textStyle: .largeTitle)
-            //newLabel(text: "LargeTitle + 4pt", textStyle: .largeTitle, offset: 4.0),
+        buttons = [
+            newButton(title: "Fixed",
+                      subtitle: "uses cornerRadius without modification",
+                      cornerStyle: .fixed),
+            
+            newButton(title: "Dynamic",
+                      subtitle: "adjust cornerRadius depending on size",
+                      cornerStyle: .dynamic),
+            
+            newButton(title: "Small", cornerStyle: .small),
+            newButton(title: "Medium", cornerStyle: .medium),
+            newButton(title: "Large", cornerStyle: .large),
+            newButton(title: "Capsule", cornerStyle: .capsule)
         ]
         
-        for label in labels {
-            stackView.addArrangedSubview(label)
+        for button in buttons {
+            stackView.addArrangedSubview(button)
         }
     }
     
-    func newLabel(text: String, textStyle: UIFont.TextStyle) -> UILabel {
-        let label = UILabel()
-        label.font = UIFont.preferredFont(forTextStyle: textStyle)
-        label.text = text
-        return label
-    }
-    
-    func newLabel(text: String, textStyle: UIFont.TextStyle, offset: CGFloat) -> UILabel {
-        let label = UILabel()
+    func newButton(title: String, subtitle: String? = nil, cornerStyle: UIButton.Configuration.CornerStyle) -> UIButton {
+        var config = UIButton.Configuration.filled()
+        config.title = title
+        config.subtitle = subtitle
+        config.titleAlignment = .center        
+        config.cornerStyle = cornerStyle
         
-        let font = UIFont.preferredFont(forTextStyle: textStyle)
-        let fontAdjusted = UIFont(descriptor: font.fontDescriptor, size: font.pointSize + offset)
-        label.font = fontAdjusted
+        let button = UIButton(configuration: config, primaryAction: nil)
+//        button.setTitle(title, for: .normal)
+//        //button.titleLabel?.text = title
+//        button.titleLabel?.font = UIFont.preferredFont(forTextStyle: .title1)
+//        //button.subtitleLabel?.text = subtitle
         
-        label.text = text
-        return label
+        // Toggle
+        //button.changesSelectionAsPrimaryAction = true
+        
+        button.translatesAutoresizingMaskIntoConstraints = false
+        return button
     }
     
     func createConstraints() {

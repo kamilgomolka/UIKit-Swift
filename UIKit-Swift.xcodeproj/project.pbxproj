@@ -23,6 +23,14 @@
 		2606825727F072F900B641B2 /* FontSizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606825627F072F900B641B2 /* FontSizesViewController.swift */; };
 		2606825927F0731500B641B2 /* FontWeightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606825827F0731500B641B2 /* FontWeightsViewController.swift */; };
 		2606825B27F0731F00B641B2 /* TextStylesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606825A27F0731F00B641B2 /* TextStylesViewController.swift */; };
+		2620623027F32AE000FD0CF3 /* ButtonMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620622727F32AE000FD0CF3 /* ButtonMenuViewController.swift */; };
+		2620623127F32AE000FD0CF3 /* ButtonMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620622827F32AE000FD0CF3 /* ButtonMenuItem.swift */; };
+		2620623227F32AE000FD0CF3 /* ButtonToggleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620622A27F32AE000FD0CF3 /* ButtonToggleViewController.swift */; };
+		2620623327F32AE000FD0CF3 /* ButtonSystemSizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620622B27F32AE000FD0CF3 /* ButtonSystemSizesViewController.swift */; };
+		2620623427F32AE000FD0CF3 /* ButtonImagePlacementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620622C27F32AE000FD0CF3 /* ButtonImagePlacementViewController.swift */; };
+		2620623527F32AE000FD0CF3 /* ButtonCornerStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620622D27F32AE000FD0CF3 /* ButtonCornerStyleViewController.swift */; };
+		2620623627F32AE000FD0CF3 /* ButtonStylesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620622E27F32AE000FD0CF3 /* ButtonStylesViewController.swift */; };
+		2620623727F32AE000FD0CF3 /* OtherButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620622F27F32AE000FD0CF3 /* OtherButtonsViewController.swift */; };
 		26B430F027E1154800F00210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B430EF27E1154800F00210 /* Assets.xcassets */; };
 		26B430F327E1154800F00210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B430F127E1154800F00210 /* LaunchScreen.storyboard */; };
 		26B4310D27E11E1600F00210 /* MenuItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B430FF27E11E1600F00210 /* MenuItemProtocol.swift */; };
@@ -53,6 +61,14 @@
 		2606825627F072F900B641B2 /* FontSizesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizesViewController.swift; sourceTree = "<group>"; };
 		2606825827F0731500B641B2 /* FontWeightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWeightsViewController.swift; sourceTree = "<group>"; };
 		2606825A27F0731F00B641B2 /* TextStylesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStylesViewController.swift; sourceTree = "<group>"; };
+		2620622727F32AE000FD0CF3 /* ButtonMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonMenuViewController.swift; sourceTree = "<group>"; };
+		2620622827F32AE000FD0CF3 /* ButtonMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonMenuItem.swift; sourceTree = "<group>"; };
+		2620622A27F32AE000FD0CF3 /* ButtonToggleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonToggleViewController.swift; sourceTree = "<group>"; };
+		2620622B27F32AE000FD0CF3 /* ButtonSystemSizesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonSystemSizesViewController.swift; sourceTree = "<group>"; };
+		2620622C27F32AE000FD0CF3 /* ButtonImagePlacementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonImagePlacementViewController.swift; sourceTree = "<group>"; };
+		2620622D27F32AE000FD0CF3 /* ButtonCornerStyleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCornerStyleViewController.swift; sourceTree = "<group>"; };
+		2620622E27F32AE000FD0CF3 /* ButtonStylesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStylesViewController.swift; sourceTree = "<group>"; };
+		2620622F27F32AE000FD0CF3 /* OtherButtonsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherButtonsViewController.swift; sourceTree = "<group>"; };
 		26B430E327E1154800F00210 /* UIKit-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B430EF27E1154800F00210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26B430F227E1154800F00210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -83,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				2606823627EE140600B641B2 /* ButtonClicksCounter */,
+				2620622627F32AE000FD0CF3 /* Menu */,
+				2620622927F32AE000FD0CF3 /* ViewControllers */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -144,6 +162,28 @@
 				2606825627F072F900B641B2 /* FontSizesViewController.swift */,
 				2606825827F0731500B641B2 /* FontWeightsViewController.swift */,
 				2606825A27F0731F00B641B2 /* TextStylesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2620622627F32AE000FD0CF3 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2620622827F32AE000FD0CF3 /* ButtonMenuItem.swift */,
+				2620622727F32AE000FD0CF3 /* ButtonMenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		2620622927F32AE000FD0CF3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2620622D27F32AE000FD0CF3 /* ButtonCornerStyleViewController.swift */,
+				2620622C27F32AE000FD0CF3 /* ButtonImagePlacementViewController.swift */,
+				2620622E27F32AE000FD0CF3 /* ButtonStylesViewController.swift */,
+				2620622B27F32AE000FD0CF3 /* ButtonSystemSizesViewController.swift */,
+				2620622A27F32AE000FD0CF3 /* ButtonToggleViewController.swift */,
+				2620622F27F32AE000FD0CF3 /* OtherButtonsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -330,7 +370,10 @@
 			files = (
 				26B4311427E11E1600F00210 /* AppDelegate.swift in Sources */,
 				26B4310E27E11E1600F00210 /* MenuCell.swift in Sources */,
+				2620623727F32AE000FD0CF3 /* OtherButtonsViewController.swift in Sources */,
+				2620623427F32AE000FD0CF3 /* ButtonImagePlacementViewController.swift in Sources */,
 				2606824627EE3D6C00B641B2 /* AllControlsStepperView.swift in Sources */,
+				2620623327F32AE000FD0CF3 /* ButtonSystemSizesViewController.swift in Sources */,
 				2606824427EE3D5C00B641B2 /* AllControlsTextFieldView.swift in Sources */,
 				2606824027EE3B3E00B641B2 /* AllControlsSwitchView.swift in Sources */,
 				2606824227EE3D4900B641B2 /* AllControlsSegmentedControlView.swift in Sources */,
@@ -344,13 +387,18 @@
 				2606823827EE140E00B641B2 /* ButtonClicksCounter.swift in Sources */,
 				2606825527F0728800B641B2 /* LabelMenuItem.swift in Sources */,
 				2606824827EE3D7B00B641B2 /* AllControlsSliderView.swift in Sources */,
+				2620623127F32AE000FD0CF3 /* ButtonMenuItem.swift in Sources */,
 				2606825B27F0731F00B641B2 /* TextStylesViewController.swift in Sources */,
+				2620623627F32AE000FD0CF3 /* ButtonStylesViewController.swift in Sources */,
 				26B4311127E11E1600F00210 /* AllControlsViewController.swift in Sources */,
 				2606823B27EE161400B641B2 /* AllControlsButtonView.swift in Sources */,
+				2620623027F32AE000FD0CF3 /* ButtonMenuViewController.swift in Sources */,
 				2606825727F072F900B641B2 /* FontSizesViewController.swift in Sources */,
 				2606825927F0731500B641B2 /* FontWeightsViewController.swift in Sources */,
 				26B4311327E11E1600F00210 /* MainMenuViewController.swift in Sources */,
+				2620623227F32AE000FD0CF3 /* ButtonToggleViewController.swift in Sources */,
 				26B4311227E11E1600F00210 /* MainMenuItem.swift in Sources */,
+				2620623527F32AE000FD0CF3 /* ButtonCornerStyleViewController.swift in Sources */,
 				2606824E27EE3DA000B641B2 /* AllControlsPageControlView.swift in Sources */,
 				26B4310D27E11E1600F00210 /* MenuItemProtocol.swift in Sources */,
 			);

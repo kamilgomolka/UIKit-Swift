@@ -29,21 +29,37 @@ class ButtonClicksCounter {
     
     private func loadTitles() {
         for button in buttons {
-            titles[button] = button.titleLabel?.text ?? ""
+            titles[button] = button.configuration?.title ?? ""
         }
     }
     
     private func bindClickEvents() {
         for button in buttons {
             button.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
+            
+            button.configurationUpdateHandler = { [unowned self] button in
+                button.configuration?.title = self.currentTitle(button: button)
+            }
         }
     }
     
     @objc private func buttonClicked(sender: UIButton) {
-        clicks[sender] = (clicks[sender] ?? 0) + 1
-        let clicks = clicks[sender] ?? 0
-        let title = titles[sender] ?? ""
+        increaseClicksCount(button: sender)
+        sender.setNeedsUpdateConfiguration()
+    }
+    
+    private func increaseClicksCount(button: UIButton) {
+        clicks[button] = (clicks[button] ?? 0) + 1
+    }
+    
+    private func currentTitle(button: UIButton) -> String {
+        let title = titles[button] ?? ""
+        
+        guard let clicks = clicks[button] else {
+            return title
+        }        
+        
         let newTitle = String(format: "%@ (%ld)", title, clicks)
-        sender.setTitle(newTitle, for: .normal)
+        return newTitle
     }
 }
