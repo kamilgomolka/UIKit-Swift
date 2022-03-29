@@ -20,20 +20,19 @@ enum ButtonMenuItem: String, MenuItemProtocol {
     }    
     
     var viewController: UIViewController? {
-//        switch self {
-//        case .buttonStyles:
-//            <#code#>
-//        case .systemSizes:
-//            <#code#>
-//        case .cornerStyle:
-//            <#code#>
-//        case .imagePlacement:
-//            <#code#>
-//        case .toggleButton:
-//            <#code#>
-//        case .other:
-//            <#code#>
-//        }
-        return ButtonCornerStyleViewController()
+        switch self {
+        case .buttonStyles:
+            return ButtonStylesViewController()
+        case .systemSizes:
+            return ButtonSystemSizesViewController()
+        case .cornerStyle:
+            return ButtonCornerStyleViewController()
+        case .imagePlacement:
+            return ButtonImagePlacementViewController()
+        case .toggleButton:
+            return ButtonToggleViewController()
+        case .other:
+            return OtherButtonsViewController()
+        }
     }
 }

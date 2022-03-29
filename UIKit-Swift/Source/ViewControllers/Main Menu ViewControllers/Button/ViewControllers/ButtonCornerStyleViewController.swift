@@ -33,7 +33,6 @@ class ButtonCornerStyleViewController: UIViewController {
         return stackView
     }()
     
-    var buttons: [UIButton] = []
     let clicksCounter = ButtonClicksCounter()
     
     // MARK: - Livecycle
@@ -47,12 +46,6 @@ class ButtonCornerStyleViewController: UIViewController {
         createConstraints()
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        clicksCounter.setup(buttons: buttons)
-    }
-    
     // MARK: - Initialization
     
     func addSubviews() {
@@ -60,7 +53,7 @@ class ButtonCornerStyleViewController: UIViewController {
         scrollView.addSubview(contentView)
         contentView.addSubview(stackView)
         
-        buttons = [
+        let buttons = [
             newButton(title: "Fixed",
                       subtitle: "uses cornerRadius without modification",
                       cornerStyle: .fixed),
@@ -75,6 +68,8 @@ class ButtonCornerStyleViewController: UIViewController {
             newButton(title: "Capsule", cornerStyle: .capsule)
         ]
         
+        clicksCounter.setup(buttons: buttons)
+        
         for button in buttons {
             stackView.addArrangedSubview(button)
         }
@@ -84,20 +79,10 @@ class ButtonCornerStyleViewController: UIViewController {
         var config = UIButton.Configuration.filled()
         config.title = title
         config.subtitle = subtitle
-        config.titleAlignment = .center        
+        config.titleAlignment = .center
         config.cornerStyle = cornerStyle
         
-        let button = UIButton(configuration: config, primaryAction: nil)
-//        button.setTitle(title, for: .normal)
-//        //button.titleLabel?.text = title
-//        button.titleLabel?.font = UIFont.preferredFont(forTextStyle: .title1)
-//        //button.subtitleLabel?.text = subtitle
-        
-        // Toggle
-        //button.changesSelectionAsPrimaryAction = true
-        
-        button.translatesAutoresizingMaskIntoConstraints = false
-        return button
+        return UIButton(configuration: config)
     }
     
     func createConstraints() {
