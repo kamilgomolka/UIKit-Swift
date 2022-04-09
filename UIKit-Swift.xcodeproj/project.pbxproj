@@ -42,6 +42,8 @@
 		26B4311327E11E1600F00210 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B4310927E11E1600F00210 /* MainMenuViewController.swift */; };
 		26B4311427E11E1600F00210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B4310B27E11E1600F00210 /* AppDelegate.swift */; };
 		26B4311527E11E1600F00210 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B4310C27E11E1600F00210 /* SceneDelegate.swift */; };
+		26BBDB0D2801F1CB009647A3 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BBDB0C2801F1CB009647A3 /* KeyboardHelper.swift */; };
+		26DBD4212801DE6D00BF2FCA /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DBD4202801DE6D00BF2FCA /* StackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +84,8 @@
 		26B4310927E11E1600F00210 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		26B4310B27E11E1600F00210 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26B4310C27E11E1600F00210 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		26BBDB0C2801F1CB009647A3 /* KeyboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHelper.swift; sourceTree = "<group>"; };
+		26DBD4202801DE6D00BF2FCA /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				26B4310A27E11E1600F00210 /* AppDelegate */,
+				26BBDB0B2801F1A2009647A3 /* Utils */,
 				26B430FD27E11E1600F00210 /* ViewControllers */,
 			);
 			path = Source;
@@ -257,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				26B4310327E11E1600F00210 /* BaseViewController.swift */,
+				26DBD4202801DE6D00BF2FCA /* StackViewController.swift */,
 			);
 			path = "Base ViewController";
 			sourceTree = "<group>";
@@ -296,6 +302,14 @@
 				26B4310C27E11E1600F00210 /* SceneDelegate.swift */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		26BBDB0B2801F1A2009647A3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				26BBDB0C2801F1CB009647A3 /* KeyboardHelper.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,6 +391,7 @@
 				2606824427EE3D5C00B641B2 /* AllControlsTextFieldView.swift in Sources */,
 				2606824027EE3B3E00B641B2 /* AllControlsSwitchView.swift in Sources */,
 				2606824227EE3D4900B641B2 /* AllControlsSegmentedControlView.swift in Sources */,
+				26BBDB0D2801F1CB009647A3 /* KeyboardHelper.swift in Sources */,
 				26B4311527E11E1600F00210 /* SceneDelegate.swift in Sources */,
 				2606824A27EE3D8A00B641B2 /* AllControlsActivityIndicatorView.swift in Sources */,
 				2606824C27EE3D9700B641B2 /* AllControlsProgressView.swift in Sources */,
@@ -388,6 +403,7 @@
 				2606825527F0728800B641B2 /* LabelMenuItem.swift in Sources */,
 				2606824827EE3D7B00B641B2 /* AllControlsSliderView.swift in Sources */,
 				2620623127F32AE000FD0CF3 /* ButtonMenuItem.swift in Sources */,
+				26DBD4212801DE6D00BF2FCA /* StackViewController.swift in Sources */,
 				2606825B27F0731F00B641B2 /* TextStylesViewController.swift in Sources */,
 				2620623627F32AE000FD0CF3 /* ButtonStylesViewController.swift in Sources */,
 				26B4311127E11E1600F00210 /* AllControlsViewController.swift in Sources */,
