@@ -31,6 +31,17 @@
 		2620623527F32AE000FD0CF3 /* ButtonCornerStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620622D27F32AE000FD0CF3 /* ButtonCornerStyleViewController.swift */; };
 		2620623627F32AE000FD0CF3 /* ButtonStylesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620622E27F32AE000FD0CF3 /* ButtonStylesViewController.swift */; };
 		2620623727F32AE000FD0CF3 /* OtherButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620622F27F32AE000FD0CF3 /* OtherButtonsViewController.swift */; };
+		2631536828030F9800939451 /* TextFieldBorderStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2631535C28030F9800939451 /* TextFieldBorderStyleViewController.swift */; };
+		2631536A28030F9800939451 /* TextFieldKeyboardTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2631535E28030F9800939451 /* TextFieldKeyboardTypeViewController.swift */; };
+		2631536B28030F9800939451 /* TextFieldTraitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2631535F28030F9800939451 /* TextFieldTraitsViewController.swift */; };
+		2631536C28030F9800939451 /* TextFieldClearButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2631536028030F9800939451 /* TextFieldClearButtonViewController.swift */; };
+		2631536D28030F9800939451 /* TextFieldReturnKeyTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2631536128030F9800939451 /* TextFieldReturnKeyTypeViewController.swift */; };
+		2631536E28030F9800939451 /* TextFieldDisabledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2631536228030F9800939451 /* TextFieldDisabledViewController.swift */; };
+		2631536F28030F9800939451 /* BaseTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2631536428030F9800939451 /* BaseTextFieldViewController.swift */; };
+		2631537028030F9800939451 /* TextFieldMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2631536628030F9800939451 /* TextFieldMenuViewController.swift */; };
+		2631537128030F9800939451 /* TextFieldMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2631536728030F9800939451 /* TextFieldMenuItem.swift */; };
+		263153732803327900939451 /* TextFieldPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263153722803327900939451 /* TextFieldPasswordViewController.swift */; };
+		263153752803329600939451 /* TextFieldAlignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263153742803329600939451 /* TextFieldAlignmentViewController.swift */; };
 		26B430F027E1154800F00210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B430EF27E1154800F00210 /* Assets.xcassets */; };
 		26B430F327E1154800F00210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B430F127E1154800F00210 /* LaunchScreen.storyboard */; };
 		26B4310D27E11E1600F00210 /* MenuItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B430FF27E11E1600F00210 /* MenuItemProtocol.swift */; };
@@ -71,6 +82,17 @@
 		2620622D27F32AE000FD0CF3 /* ButtonCornerStyleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCornerStyleViewController.swift; sourceTree = "<group>"; };
 		2620622E27F32AE000FD0CF3 /* ButtonStylesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStylesViewController.swift; sourceTree = "<group>"; };
 		2620622F27F32AE000FD0CF3 /* OtherButtonsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherButtonsViewController.swift; sourceTree = "<group>"; };
+		2631535C28030F9800939451 /* TextFieldBorderStyleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldBorderStyleViewController.swift; sourceTree = "<group>"; };
+		2631535E28030F9800939451 /* TextFieldKeyboardTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldKeyboardTypeViewController.swift; sourceTree = "<group>"; };
+		2631535F28030F9800939451 /* TextFieldTraitsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTraitsViewController.swift; sourceTree = "<group>"; };
+		2631536028030F9800939451 /* TextFieldClearButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldClearButtonViewController.swift; sourceTree = "<group>"; };
+		2631536128030F9800939451 /* TextFieldReturnKeyTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldReturnKeyTypeViewController.swift; sourceTree = "<group>"; };
+		2631536228030F9800939451 /* TextFieldDisabledViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldDisabledViewController.swift; sourceTree = "<group>"; };
+		2631536428030F9800939451 /* BaseTextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTextFieldViewController.swift; sourceTree = "<group>"; };
+		2631536628030F9800939451 /* TextFieldMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldMenuViewController.swift; sourceTree = "<group>"; };
+		2631536728030F9800939451 /* TextFieldMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldMenuItem.swift; sourceTree = "<group>"; };
+		263153722803327900939451 /* TextFieldPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldPasswordViewController.swift; sourceTree = "<group>"; };
+		263153742803329600939451 /* TextFieldAlignmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAlignmentViewController.swift; sourceTree = "<group>"; };
 		26B430E327E1154800F00210 /* UIKit-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B430EF27E1154800F00210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26B430F227E1154800F00210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -192,6 +214,48 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		2631535A28030F9800939451 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				2631536528030F9800939451 /* Menu */,
+				2631535B28030F9800939451 /* ViewControllers */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		2631535B28030F9800939451 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2631536328030F9800939451 /* Base */,
+				263153742803329600939451 /* TextFieldAlignmentViewController.swift */,
+				2631535C28030F9800939451 /* TextFieldBorderStyleViewController.swift */,
+				2631536028030F9800939451 /* TextFieldClearButtonViewController.swift */,
+				2631536228030F9800939451 /* TextFieldDisabledViewController.swift */,
+				2631535E28030F9800939451 /* TextFieldKeyboardTypeViewController.swift */,
+				263153722803327900939451 /* TextFieldPasswordViewController.swift */,
+				2631536128030F9800939451 /* TextFieldReturnKeyTypeViewController.swift */,
+				2631535F28030F9800939451 /* TextFieldTraitsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2631536328030F9800939451 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2631536428030F9800939451 /* BaseTextFieldViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2631536528030F9800939451 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2631536728030F9800939451 /* TextFieldMenuItem.swift */,
+				2631536628030F9800939451 /* TextFieldMenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		26B430DA27E1154700F00210 = {
 			isa = PBXGroup;
 			children = (
@@ -273,6 +337,7 @@
 				26B4310527E11E1600F00210 /* AllControls */,
 				2606823527EE140100B641B2 /* Button */,
 				2606824F27F0725000B641B2 /* Label */,
+				2631535A28030F9800939451 /* TextField */,
 			);
 			path = "Main Menu ViewControllers";
 			sourceTree = "<group>";
@@ -384,24 +449,33 @@
 			files = (
 				26B4311427E11E1600F00210 /* AppDelegate.swift in Sources */,
 				26B4310E27E11E1600F00210 /* MenuCell.swift in Sources */,
+				2631536828030F9800939451 /* TextFieldBorderStyleViewController.swift in Sources */,
 				2620623727F32AE000FD0CF3 /* OtherButtonsViewController.swift in Sources */,
 				2620623427F32AE000FD0CF3 /* ButtonImagePlacementViewController.swift in Sources */,
 				2606824627EE3D6C00B641B2 /* AllControlsStepperView.swift in Sources */,
+				2631536C28030F9800939451 /* TextFieldClearButtonViewController.swift in Sources */,
 				2620623327F32AE000FD0CF3 /* ButtonSystemSizesViewController.swift in Sources */,
+				263153752803329600939451 /* TextFieldAlignmentViewController.swift in Sources */,
 				2606824427EE3D5C00B641B2 /* AllControlsTextFieldView.swift in Sources */,
+				263153732803327900939451 /* TextFieldPasswordViewController.swift in Sources */,
 				2606824027EE3B3E00B641B2 /* AllControlsSwitchView.swift in Sources */,
+				2631536E28030F9800939451 /* TextFieldDisabledViewController.swift in Sources */,
 				2606824227EE3D4900B641B2 /* AllControlsSegmentedControlView.swift in Sources */,
+				2631536B28030F9800939451 /* TextFieldTraitsViewController.swift in Sources */,
 				26BBDB0D2801F1CB009647A3 /* KeyboardHelper.swift in Sources */,
+				2631536A28030F9800939451 /* TextFieldKeyboardTypeViewController.swift in Sources */,
 				26B4311527E11E1600F00210 /* SceneDelegate.swift in Sources */,
 				2606824A27EE3D8A00B641B2 /* AllControlsActivityIndicatorView.swift in Sources */,
 				2606824C27EE3D9700B641B2 /* AllControlsProgressView.swift in Sources */,
 				2606823E27EE163000B641B2 /* AllControlsBaseView.swift in Sources */,
 				26B4311027E11E1600F00210 /* BaseViewController.swift in Sources */,
 				26B4310F27E11E1600F00210 /* MenuViewController.swift in Sources */,
+				2631537128030F9800939451 /* TextFieldMenuItem.swift in Sources */,
 				2606825327F0728100B641B2 /* LabelMenuViewController.swift in Sources */,
 				2606823827EE140E00B641B2 /* ButtonClicksCounter.swift in Sources */,
 				2606825527F0728800B641B2 /* LabelMenuItem.swift in Sources */,
 				2606824827EE3D7B00B641B2 /* AllControlsSliderView.swift in Sources */,
+				2631536D28030F9800939451 /* TextFieldReturnKeyTypeViewController.swift in Sources */,
 				2620623127F32AE000FD0CF3 /* ButtonMenuItem.swift in Sources */,
 				26DBD4212801DE6D00BF2FCA /* StackViewController.swift in Sources */,
 				2606825B27F0731F00B641B2 /* TextStylesViewController.swift in Sources */,
@@ -410,6 +484,8 @@
 				2606823B27EE161400B641B2 /* AllControlsButtonView.swift in Sources */,
 				2620623027F32AE000FD0CF3 /* ButtonMenuViewController.swift in Sources */,
 				2606825727F072F900B641B2 /* FontSizesViewController.swift in Sources */,
+				2631536F28030F9800939451 /* BaseTextFieldViewController.swift in Sources */,
+				2631537028030F9800939451 /* TextFieldMenuViewController.swift in Sources */,
 				2606825927F0731500B641B2 /* FontWeightsViewController.swift in Sources */,
 				26B4311327E11E1600F00210 /* MainMenuViewController.swift in Sources */,
 				2620623227F32AE000FD0CF3 /* ButtonToggleViewController.swift in Sources */,

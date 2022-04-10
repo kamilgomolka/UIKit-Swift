@@ -1,8 +1,8 @@
 //
 //  ButtonCornerStyleViewController.swift
-//  UIKit-Storyboard
+//  UIKit-Swift
 //
-//  Created by Kamil Gomółka on 21/01/2022.
+//  Created by Kamil Gomółka on 29/03/2022.
 //
 
 import UIKit
@@ -19,18 +19,18 @@ class ButtonCornerStyleViewController: StackViewController {
 		super.addSubviews()
 		
 		let buttons = [
-			newButton(title: "Fixed",
-					  subtitle: "uses cornerRadius without modification",
-					  cornerStyle: .fixed),
+			button(title: "Fixed",
+				   subtitle: "uses cornerRadius without modification",
+				   cornerStyle: .fixed),
 			
-			newButton(title: "Dynamic",
-					  subtitle: "adjust cornerRadius depending on size",
-					  cornerStyle: .dynamic),
+			button(title: "Dynamic",
+				   subtitle: "adjust cornerRadius depending on size",
+				   cornerStyle: .dynamic),
 			
-			newButton(title: "Small", cornerStyle: .small),
-			newButton(title: "Medium", cornerStyle: .medium),
-			newButton(title: "Large", cornerStyle: .large),
-			newButton(title: "Capsule", cornerStyle: .capsule)
+			button(title: "Small", cornerStyle: .small),
+			button(title: "Medium", cornerStyle: .medium),
+			button(title: "Large", cornerStyle: .large),
+			button(title: "Capsule", cornerStyle: .capsule)
 		]
 		
 		clicksCounter.setup(buttons: buttons)
@@ -40,7 +40,7 @@ class ButtonCornerStyleViewController: StackViewController {
 		}
 	}
 	
-	func newButton(title: String, subtitle: String? = nil, cornerStyle: UIButton.Configuration.CornerStyle) -> UIButton {
+	private func button(title: String, subtitle: String? = nil, cornerStyle: UIButton.Configuration.CornerStyle) -> UIButton {
 		var config = UIButton.Configuration.filled()
 		config.title = title
 		config.subtitle = subtitle

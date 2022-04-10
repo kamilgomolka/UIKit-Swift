@@ -45,12 +45,12 @@ class FontSizesViewController: StackViewController {
 		]
 		
 		for size in fontSizes {
-			let label = newLabel(fontSize: size)
+			let label = label(fontSize: size)
 			stackView.addArrangedSubview(label)
 		}
 	}
 	
-	func newLabel(fontSize: CGFloat) -> UILabel {
+	private func label(fontSize: CGFloat) -> UILabel {
 		let label = UILabel()
 		label.font = UIFont.systemFont(ofSize: fontSize)
 		

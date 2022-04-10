@@ -15,15 +15,15 @@ class FontWeightsViewController: StackViewController {
 		super.addSubviews()
 		
 		let labels = [
-			newLabel(text: "Ultra light",   weight: .ultraLight),
-			newLabel(text: "Thin",          weight: .thin),
-			newLabel(text: "Light",         weight: .light),
-			newLabel(text: "Regular",       weight: .regular),
-			newLabel(text: "Medium",        weight: .medium),
-			newLabel(text: "Semibold",      weight: .semibold),
-			newLabel(text: "Bold",          weight: .bold),
-			newLabel(text: "Heavy",         weight: .heavy),
-			newLabel(text: "Black",         weight: .black)
+			label(text: "Ultra light",   weight: .ultraLight),
+			label(text: "Thin",          weight: .thin),
+			label(text: "Light",         weight: .light),
+			label(text: "Regular",       weight: .regular),
+			label(text: "Medium",        weight: .medium),
+			label(text: "Semibold",      weight: .semibold),
+			label(text: "Bold",          weight: .bold),
+			label(text: "Heavy",         weight: .heavy),
+			label(text: "Black",         weight: .black)
 		]
 		
 		for label in labels {
@@ -31,7 +31,7 @@ class FontWeightsViewController: StackViewController {
 		}
 	}
 	
-	func newLabel(text: String, weight: UIFont.Weight) -> UILabel {
+	private func label(text: String, weight: UIFont.Weight) -> UILabel {
 		let label = UILabel()
 		label.font = UIFont.systemFont(ofSize: 17.0, weight: weight)
 		label.text = text

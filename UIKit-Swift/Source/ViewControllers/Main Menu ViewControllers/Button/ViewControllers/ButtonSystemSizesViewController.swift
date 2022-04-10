@@ -1,8 +1,8 @@
 //
 //  ButtonSystemSizesViewController.swift
-//  UIKit-Storyboard
+//  UIKit-Swift
 //
-//  Created by Kamil Gomółka on 21/01/2022.
+//  Created by Kamil Gomółka on 29/03/2022.
 //
 
 import UIKit
@@ -27,10 +27,10 @@ class ButtonSystemSizesViewController: StackViewController {
 		super.addSubviews()
 		
 		let buttons = [
-			newButton(title: "Size = Mini",    size: .mini),
-			newButton(title: "Size = Small",   size: .small),
-			newButton(title: "Size = Medium",  size: .medium),
-			newButton(title: "Size = Large",   size: .large)
+			button(title: "Size = Mini",    size: .mini),
+			button(title: "Size = Small",   size: .small),
+			button(title: "Size = Medium",  size: .medium),
+			button(title: "Size = Large",   size: .large)
 		]
 		
 		clicksCounter.setup(buttons: buttons)
@@ -40,7 +40,7 @@ class ButtonSystemSizesViewController: StackViewController {
 		}
 	}
 	
-	func newButton(title: String, size: UIButton.Configuration.Size) -> UIButton {
+	private func button(title: String, size: UIButton.Configuration.Size) -> UIButton {
 		var config = UIButton.Configuration.gray()
 		config.title = title
 		config.buttonSize = size

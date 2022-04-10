@@ -15,18 +15,18 @@ class TextStylesViewController: StackViewController {
 		super.addSubviews()
 		
 		let labels = [
-			newLabel(text: "Caption2",      textStyle: .caption2),
-			newLabel(text: "Caption1",      textStyle: .caption1),
-			newLabel(text: "Footnote",      textStyle: .footnote),
-			newLabel(text: "Subheadline",   textStyle: .subheadline),
-			newLabel(text: "Callout",       textStyle: .callout),
-			newLabel(text: "Body",          textStyle: .body),
-			newLabel(text: "Headline",      textStyle: .headline),
-			newLabel(text: "Title3",        textStyle: .title3),
-			newLabel(text: "Title2",        textStyle: .title2),
-			newLabel(text: "Title1",        textStyle: .title1),
-			newLabel(text: "LargeTitle",    textStyle: .largeTitle)
-			//newLabel(text: "LargeTitle + 4pt", textStyle: .largeTitle, offset: 4.0),
+			label(text: "Caption2",      textStyle: .caption2),
+			label(text: "Caption1",      textStyle: .caption1),
+			label(text: "Footnote",      textStyle: .footnote),
+			label(text: "Subheadline",   textStyle: .subheadline),
+			label(text: "Callout",       textStyle: .callout),
+			label(text: "Body",          textStyle: .body),
+			label(text: "Headline",      textStyle: .headline),
+			label(text: "Title3",        textStyle: .title3),
+			label(text: "Title2",        textStyle: .title2),
+			label(text: "Title1",        textStyle: .title1),
+			label(text: "LargeTitle",    textStyle: .largeTitle)
+			//label(text: "LargeTitle + 4pt", textStyle: .largeTitle, offset: 4.0),
 		]
 		
 		for label in labels {
@@ -34,14 +34,14 @@ class TextStylesViewController: StackViewController {
 		}
 	}
 	
-	func newLabel(text: String, textStyle: UIFont.TextStyle) -> UILabel {
+	private func label(text: String, textStyle: UIFont.TextStyle) -> UILabel {
 		let label = UILabel()
 		label.font = UIFont.preferredFont(forTextStyle: textStyle)
 		label.text = text
 		return label
 	}
 	
-	func newLabel(text: String, textStyle: UIFont.TextStyle, offset: CGFloat) -> UILabel {
+	private func label(text: String, textStyle: UIFont.TextStyle, offset: CGFloat) -> UILabel {
 		let label = UILabel()
 		
 		let font = UIFont.preferredFont(forTextStyle: textStyle)

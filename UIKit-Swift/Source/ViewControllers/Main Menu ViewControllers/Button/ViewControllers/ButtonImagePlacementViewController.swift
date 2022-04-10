@@ -1,8 +1,8 @@
 //
 //  ButtonImagePlacementViewController.swift
-//  UIKit-Storyboard
+//  UIKit-Swift
 //
-//  Created by Kamil Gomółka on 21/01/2022.
+//  Created by Kamil Gomółka on 29/03/2022.
 //
 
 import UIKit
@@ -27,10 +27,10 @@ class ButtonImagePlacementViewController: StackViewController {
 		super.addSubviews()
 		
 		let buttons = [
-			newButton(title: "Leading",     imagePlacement: .leading),
-			newButton(title: "Trailing",    imagePlacement: .trailing),
-			newButton(title: "Top",         imagePlacement: .top),
-			newButton(title: "Bottom",      imagePlacement: .bottom)
+			button(title: "Leading",     imagePlacement: .leading),
+			button(title: "Trailing",    imagePlacement: .trailing),
+			button(title: "Top",         imagePlacement: .top),
+			button(title: "Bottom",      imagePlacement: .bottom)
 		]
 		
 		clicksCounter.setup(buttons: buttons)
@@ -40,7 +40,7 @@ class ButtonImagePlacementViewController: StackViewController {
 		}
 	}
 	
-	func newButton(title: String, imagePlacement: NSDirectionalRectEdge) -> UIButton {
+	private func button(title: String, imagePlacement: NSDirectionalRectEdge) -> UIButton {
 		var config = UIButton.Configuration.filled()
 		config.title = title
 		config.image = UIImage(systemName: "star.fill")
