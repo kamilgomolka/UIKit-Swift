@@ -1,0 +1,17 @@
+PhoneNumber:
++48222101010
+
+Link:
+https://www.google.com/
+
+Email:
+dummyEmail@domain.com
+
+Address:
+ul. Medweckiego 2, 31-863 Kraków
+
+CalendarEvent #1:
+15:00 Tomorrow
+
+CalendarEvent #2:
+March 10th 2022 at 19:30
