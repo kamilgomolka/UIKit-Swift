@@ -23,6 +23,12 @@ class MockDataLoader {
 		return text(fileName: "mockDataDetectorsText")
 	}
 	
+	func sequentialNumbersMultilineText(firstNumber: Int = 1, lastNumber: Int = 100) -> String {
+		let ints = firstNumber...lastNumber
+		let strings = ints.map { "\($0)" }
+		return strings.joined(separator: "\n")
+	}
+	
 	// MARK: - Private functions
 	
 	func text(fileName: String) -> String? {

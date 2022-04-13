@@ -50,8 +50,12 @@
 		263153892803395900939451 /* TextViewNonEditableNonSelectableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263153882803395900939451 /* TextViewNonEditableNonSelectableViewController.swift */; };
 		2631538C28033B8800939451 /* mockLongText.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2631538B28033B8800939451 /* mockLongText.txt */; };
 		2631538E28033BB400939451 /* MockDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2631538D28033BB400939451 /* MockDataLoader.swift */; };
-		26315390280340E000939451 /* mockDataDetectorsText.txt in Sources */ = {isa = PBXBuildFile; fileRef = 2631538F280340E000939451 /* mockDataDetectorsText.txt */; };
 		26484F5F2806C68900002EE3 /* mockDataDetectorsText.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2631538F280340E000939451 /* mockDataDetectorsText.txt */; };
+		26484F682806CBEE00002EE3 /* ScrollViewHorizontalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26484F622806CBEE00002EE3 /* ScrollViewHorizontalViewController.swift */; };
+		26484F692806CBEE00002EE3 /* ScrollViewVerticalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26484F632806CBEE00002EE3 /* ScrollViewVerticalViewController.swift */; };
+		26484F6A2806CBEE00002EE3 /* ScrollViewTwoDirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26484F642806CBEE00002EE3 /* ScrollViewTwoDirectionsViewController.swift */; };
+		26484F6B2806CBEE00002EE3 /* ScrollViewMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26484F662806CBEE00002EE3 /* ScrollViewMenuItem.swift */; };
+		26484F6C2806CBEE00002EE3 /* ScrollViewMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26484F672806CBEE00002EE3 /* ScrollViewMenuViewController.swift */; };
 		26B430F027E1154800F00210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B430EF27E1154800F00210 /* Assets.xcassets */; };
 		26B430F327E1154800F00210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B430F127E1154800F00210 /* LaunchScreen.storyboard */; };
 		26B4310D27E11E1600F00210 /* MenuItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B430FF27E11E1600F00210 /* MenuItemProtocol.swift */; };
@@ -112,6 +116,11 @@
 		2631538B28033B8800939451 /* mockLongText.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mockLongText.txt; sourceTree = "<group>"; };
 		2631538D28033BB400939451 /* MockDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataLoader.swift; sourceTree = "<group>"; };
 		2631538F280340E000939451 /* mockDataDetectorsText.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = mockDataDetectorsText.txt; sourceTree = "<group>"; };
+		26484F622806CBEE00002EE3 /* ScrollViewHorizontalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewHorizontalViewController.swift; sourceTree = "<group>"; };
+		26484F632806CBEE00002EE3 /* ScrollViewVerticalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewVerticalViewController.swift; sourceTree = "<group>"; };
+		26484F642806CBEE00002EE3 /* ScrollViewTwoDirectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewTwoDirectionsViewController.swift; sourceTree = "<group>"; };
+		26484F662806CBEE00002EE3 /* ScrollViewMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewMenuItem.swift; sourceTree = "<group>"; };
+		26484F672806CBEE00002EE3 /* ScrollViewMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewMenuViewController.swift; sourceTree = "<group>"; };
 		26B430E327E1154800F00210 /* UIKit-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B430EF27E1154800F00210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26B430F227E1154800F00210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -313,6 +322,34 @@
 			path = "Mock data";
 			sourceTree = "<group>";
 		};
+		26484F602806CBEE00002EE3 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				26484F652806CBEE00002EE3 /* Menu */,
+				26484F612806CBEE00002EE3 /* ViewControllers */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		26484F612806CBEE00002EE3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				26484F622806CBEE00002EE3 /* ScrollViewHorizontalViewController.swift */,
+				26484F642806CBEE00002EE3 /* ScrollViewTwoDirectionsViewController.swift */,
+				26484F632806CBEE00002EE3 /* ScrollViewVerticalViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		26484F652806CBEE00002EE3 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				26484F662806CBEE00002EE3 /* ScrollViewMenuItem.swift */,
+				26484F672806CBEE00002EE3 /* ScrollViewMenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		26B430DA27E1154700F00210 = {
 			isa = PBXGroup;
 			children = (
@@ -392,6 +429,7 @@
 		26B4310427E11E1600F00210 /* Main Menu ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				26484F602806CBEE00002EE3 /* ScrollView */,
 				26B4310527E11E1600F00210 /* AllControls */,
 				2606823527EE140100B641B2 /* Button */,
 				2606824F27F0725000B641B2 /* Label */,
@@ -513,6 +551,7 @@
 				26B4310E27E11E1600F00210 /* MenuCell.swift in Sources */,
 				2631536828030F9800939451 /* TextFieldBorderStyleViewController.swift in Sources */,
 				2620623727F32AE000FD0CF3 /* OtherButtonsViewController.swift in Sources */,
+				26484F6A2806CBEE00002EE3 /* ScrollViewTwoDirectionsViewController.swift in Sources */,
 				2620623427F32AE000FD0CF3 /* ButtonImagePlacementViewController.swift in Sources */,
 				2606824627EE3D6C00B641B2 /* AllControlsStepperView.swift in Sources */,
 				2631536C28030F9800939451 /* TextFieldClearButtonViewController.swift in Sources */,
@@ -524,8 +563,8 @@
 				2606824027EE3B3E00B641B2 /* AllControlsSwitchView.swift in Sources */,
 				2631536E28030F9800939451 /* TextFieldDisabledViewController.swift in Sources */,
 				2606824227EE3D4900B641B2 /* AllControlsSegmentedControlView.swift in Sources */,
-				26315390280340E000939451 /* mockDataDetectorsText.txt in Sources */,
 				263153812803392A00939451 /* TextViewMenuViewController.swift in Sources */,
+				26484F6C2806CBEE00002EE3 /* ScrollViewMenuViewController.swift in Sources */,
 				2631536B28030F9800939451 /* TextFieldTraitsViewController.swift in Sources */,
 				26BBDB0D2801F1CB009647A3 /* KeyboardHelper.swift in Sources */,
 				2631536A28030F9800939451 /* TextFieldKeyboardTypeViewController.swift in Sources */,
@@ -539,10 +578,12 @@
 				26B4310F27E11E1600F00210 /* MenuViewController.swift in Sources */,
 				2631537128030F9800939451 /* TextFieldMenuItem.swift in Sources */,
 				2606825327F0728100B641B2 /* LabelMenuViewController.swift in Sources */,
+				26484F6B2806CBEE00002EE3 /* ScrollViewMenuItem.swift in Sources */,
 				2606823827EE140E00B641B2 /* ButtonClicksCounter.swift in Sources */,
 				2606825527F0728800B641B2 /* LabelMenuItem.swift in Sources */,
 				2606824827EE3D7B00B641B2 /* AllControlsSliderView.swift in Sources */,
 				2631536D28030F9800939451 /* TextFieldReturnKeyTypeViewController.swift in Sources */,
+				26484F682806CBEE00002EE3 /* ScrollViewHorizontalViewController.swift in Sources */,
 				2620623127F32AE000FD0CF3 /* ButtonMenuItem.swift in Sources */,
 				26DBD4212801DE6D00BF2FCA /* StackViewController.swift in Sources */,
 				2631537F2803392300939451 /* TextViewMenuItem.swift in Sources */,
@@ -560,6 +601,7 @@
 				26B4311327E11E1600F00210 /* MainMenuViewController.swift in Sources */,
 				2620623227F32AE000FD0CF3 /* ButtonToggleViewController.swift in Sources */,
 				26B4311227E11E1600F00210 /* MainMenuItem.swift in Sources */,
+				26484F692806CBEE00002EE3 /* ScrollViewVerticalViewController.swift in Sources */,
 				2620623527F32AE000FD0CF3 /* ButtonCornerStyleViewController.swift in Sources */,
 				2606824E27EE3DA000B641B2 /* AllControlsPageControlView.swift in Sources */,
 				26B4310D27E11E1600F00210 /* MenuItemProtocol.swift in Sources */,
