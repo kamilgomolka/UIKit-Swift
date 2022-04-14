@@ -9,8 +9,8 @@ import UIKit
 
 class MainMenuViewController: MenuViewController<MainMenuItem> {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func loadView() {
+        super.loadView()
         
         title = "UIKit-Swift"
     }

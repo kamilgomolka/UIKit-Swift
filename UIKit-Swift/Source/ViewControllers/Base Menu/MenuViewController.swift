@@ -15,8 +15,8 @@ class MenuViewController<MenuItemType: MenuItemProtocol>: UIViewController, UITa
     
     // MARK: - Lifecycle
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func loadView() {
+        super.loadView()
         
         setupTableView()
     }
@@ -25,9 +25,8 @@ class MenuViewController<MenuItemType: MenuItemProtocol>: UIViewController, UITa
         tableView.dataSource = self
         tableView.delegate = self
         tableView.register(MenuCell.self, forCellReuseIdentifier: MenuCell.identifier)
-        
+		tableView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(tableView)
-        tableView.translatesAutoresizingMaskIntoConstraints = false
         
         tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true

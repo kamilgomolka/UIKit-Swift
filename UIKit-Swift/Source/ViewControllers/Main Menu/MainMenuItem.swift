@@ -55,8 +55,8 @@ enum MainMenuItem: MenuItemProtocol {
 			return TextViewMenuViewController()
 		case .scrollView:
 			return ScrollViewMenuViewController()
-//		case .tableView:
-//			return TableView
+		case .tableView:
+			return TableViewMenuViewController()
 //		case .collectionView:
 //			return CollectionView
 //		case .transitions:

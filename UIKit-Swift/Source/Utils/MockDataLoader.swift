@@ -29,6 +29,21 @@ class MockDataLoader {
 		return strings.joined(separator: "\n")
 	}
 	
+	func persons() -> [Person] {
+		guard let path = Bundle.main.path(forResource: "personData", ofType: "json") else {
+			return []
+		}
+		
+		let url = URL(fileURLWithPath: path)
+		
+		guard let data = try? Data(contentsOf: url),
+			  let array = try? JSONDecoder().decode([Person].self, from: data) else {
+				  return []
+			  }
+		
+		return array
+	}
+	
 	// MARK: - Private functions
 	
 	func text(fileName: String) -> String? {
