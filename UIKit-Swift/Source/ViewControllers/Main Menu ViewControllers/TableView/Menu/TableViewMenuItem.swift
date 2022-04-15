@@ -17,7 +17,7 @@ enum TableViewMenuItem: MenuItemProtocol {
     case cellSeparatorInsets
     case headersAndFootters
     case sectionIndex
-//    case editing
+    case editing
     
     var name: String {
         switch self {
@@ -39,13 +39,9 @@ enum TableViewMenuItem: MenuItemProtocol {
             return "Headers and Footters"
         case .sectionIndex:
             return "SectionIndex"
-//        case .editing:
-//            return "Editing modes"
+        case .editing:
+            return "Editing modes"
         }
-    }    
-    
-    var storyboardName: String {
-        return "TableView"
     }
     
     var viewController: UIViewController? {
@@ -68,8 +64,8 @@ enum TableViewMenuItem: MenuItemProtocol {
             return TableViewHeadersAndFoottersViewController()
         case .sectionIndex:
             return TableViewSectionIndexViewController()
-//        case .editing:
-//            return ""
+        case .editing:
+            return TableViewEditingMenuViewController()
         }
     }
 }

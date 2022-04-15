@@ -132,6 +132,11 @@
 		26B4311527E11E1600F00210 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B4310C27E11E1600F00210 /* SceneDelegate.swift */; };
 		26BBDB0D2801F1CB009647A3 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BBDB0C2801F1CB009647A3 /* KeyboardHelper.swift */; };
 		26DBD4212801DE6D00BF2FCA /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DBD4202801DE6D00BF2FCA /* StackViewController.swift */; };
+		26ED8F442809675E00D03738 /* TableViewEditingMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED8F432809675E00D03738 /* TableViewEditingMenuItem.swift */; };
+		26ED8F462809676500D03738 /* TableViewEditingMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED8F452809676500D03738 /* TableViewEditingMenuViewController.swift */; };
+		26ED8F482809683000D03738 /* TableViewSwipeActionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED8F472809683000D03738 /* TableViewSwipeActionsViewController.swift */; };
+		26ED8F4A280978FA00D03738 /* TableViewAddAndDeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED8F49280978FA00D03738 /* TableViewAddAndDeleteViewController.swift */; };
+		26ED8F8C2809860400D03738 /* TableViewReorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED8F8B2809860400D03738 /* TableViewReorderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -262,6 +267,11 @@
 		26B4310C27E11E1600F00210 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		26BBDB0C2801F1CB009647A3 /* KeyboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHelper.swift; sourceTree = "<group>"; };
 		26DBD4202801DE6D00BF2FCA /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		26ED8F432809675E00D03738 /* TableViewEditingMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewEditingMenuItem.swift; sourceTree = "<group>"; };
+		26ED8F452809676500D03738 /* TableViewEditingMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewEditingMenuViewController.swift; sourceTree = "<group>"; };
+		26ED8F472809683000D03738 /* TableViewSwipeActionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSwipeActionsViewController.swift; sourceTree = "<group>"; };
+		26ED8F49280978FA00D03738 /* TableViewAddAndDeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAddAndDeleteViewController.swift; sourceTree = "<group>"; };
+		26ED8F8B2809860400D03738 /* TableViewReorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewReorderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -494,6 +504,7 @@
 				26484F9328070C5B00002EE3 /* CellSelectionStyle */,
 				26484F9E28070C5B00002EE3 /* CellSeparatorInsets */,
 				26484F8728070C5B00002EE3 /* CellStyle */,
+				26ED8F4028095B8900D03738 /* Editing */,
 				26484F7228070C5B00002EE3 /* HeadersAndFootters */,
 				26484F6F28070C5B00002EE3 /* SectionIndex */,
 				26484F9628070C5B00002EE3 /* Selection */,
@@ -928,6 +939,34 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		26ED8F4028095B8900D03738 /* Editing */ = {
+			isa = PBXGroup;
+			children = (
+				26ED8F412809672800D03738 /* Menu */,
+				26ED8F422809673500D03738 /* ViewControllers */,
+			);
+			path = Editing;
+			sourceTree = "<group>";
+		};
+		26ED8F412809672800D03738 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				26ED8F432809675E00D03738 /* TableViewEditingMenuItem.swift */,
+				26ED8F452809676500D03738 /* TableViewEditingMenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		26ED8F422809673500D03738 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				26ED8F49280978FA00D03738 /* TableViewAddAndDeleteViewController.swift */,
+				26ED8F8B2809860400D03738 /* TableViewReorderViewController.swift */,
+				26ED8F472809683000D03738 /* TableViewSwipeActionsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1015,6 +1054,7 @@
 				2620623427F32AE000FD0CF3 /* ButtonImagePlacementViewController.swift in Sources */,
 				2606824627EE3D6C00B641B2 /* AllControlsStepperView.swift in Sources */,
 				26859E6E2808876900E233BB /* CollectionViewBadgeViewController.swift in Sources */,
+				26ED8F482809683000D03738 /* TableViewSwipeActionsViewController.swift in Sources */,
 				26484FB028070C5B00002EE3 /* TableViewStylePlainViewController.swift in Sources */,
 				26484FDD2807226900002EE3 /* Value1StyleTableViewCell.swift in Sources */,
 				2631536C28030F9800939451 /* TextFieldClearButtonViewController.swift in Sources */,
@@ -1025,7 +1065,9 @@
 				263153732803327900939451 /* TextFieldPasswordViewController.swift in Sources */,
 				2631538E28033BB400939451 /* MockDataLoader.swift in Sources */,
 				2606824027EE3B3E00B641B2 /* AllControlsSwitchView.swift in Sources */,
+				26ED8F462809676500D03738 /* TableViewEditingMenuViewController.swift in Sources */,
 				2631536E28030F9800939451 /* TextFieldDisabledViewController.swift in Sources */,
+				26ED8F442809675E00D03738 /* TableViewEditingMenuItem.swift in Sources */,
 				2606824227EE3D4900B641B2 /* AllControlsSegmentedControlView.swift in Sources */,
 				26859E682808876900E233BB /* CollectionHeaderView.swift in Sources */,
 				26484FC528070C5B00002EE3 /* TableViewSelectionMenuViewController.swift in Sources */,
@@ -1039,6 +1081,7 @@
 				2631536B28030F9800939451 /* TextFieldTraitsViewController.swift in Sources */,
 				26BBDB0D2801F1CB009647A3 /* KeyboardHelper.swift in Sources */,
 				2631536A28030F9800939451 /* TextFieldKeyboardTypeViewController.swift in Sources */,
+				26ED8F4A280978FA00D03738 /* TableViewAddAndDeleteViewController.swift in Sources */,
 				26B4311527E11E1600F00210 /* SceneDelegate.swift in Sources */,
 				26484FC328070C5B00002EE3 /* TableViewSelectionSingleViewController.swift in Sources */,
 				26484FEA280736C700002EE3 /* Indentation1TableViewCell.swift in Sources */,
@@ -1048,6 +1091,7 @@
 				268AEF5E28091E2B006E8838 /* TransitionsMenuViewController.swift in Sources */,
 				26484FCF28070CE100002EE3 /* SimpleTableViewCell.swift in Sources */,
 				26484FC928070C5B00002EE3 /* SimpleTableViewController.swift in Sources */,
+				26ED8F8C2809860400D03738 /* TableViewReorderViewController.swift in Sources */,
 				2606824A27EE3D8A00B641B2 /* AllControlsActivityIndicatorView.swift in Sources */,
 				263153852803394A00939451 /* TextViewEditableViewController.swift in Sources */,
 				2606824C27EE3D9700B641B2 /* AllControlsProgressView.swift in Sources */,
