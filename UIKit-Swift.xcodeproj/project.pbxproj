@@ -105,6 +105,15 @@
 		26484FEC280736CF00002EE3 /* Indentation2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26484FEB280736CF00002EE3 /* Indentation2TableViewCell.swift */; };
 		26484FEE280736EC00002EE3 /* Indentation3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26484FED280736EC00002EE3 /* Indentation3TableViewCell.swift */; };
 		26484FF02807374C00002EE3 /* LeftSideSeparatorInsetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26484FEF2807374C00002EE3 /* LeftSideSeparatorInsetTableViewCell.swift */; };
+		26859E682808876900E233BB /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26859E5D2808876900E233BB /* CollectionHeaderView.swift */; };
+		26859E692808876900E233BB /* CollectionBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26859E5E2808876900E233BB /* CollectionBadgeView.swift */; };
+		26859E6A2808876900E233BB /* BigNumberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26859E5F2808876900E233BB /* BigNumberCollectionViewCell.swift */; };
+		26859E6B2808876900E233BB /* CollectionViewSectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26859E612808876900E233BB /* CollectionViewSectionsViewController.swift */; };
+		26859E6C2808876900E233BB /* CollectionViewPagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26859E622808876900E233BB /* CollectionViewPagingViewController.swift */; };
+		26859E6D2808876900E233BB /* CollectionViewGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26859E632808876900E233BB /* CollectionViewGridViewController.swift */; };
+		26859E6E2808876900E233BB /* CollectionViewBadgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26859E642808876900E233BB /* CollectionViewBadgeViewController.swift */; };
+		26859E6F2808876900E233BB /* CollectionViewMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26859E662808876900E233BB /* CollectionViewMenuItem.swift */; };
+		26859E702808876900E233BB /* CollectionViewMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26859E672808876900E233BB /* CollectionViewMenuViewController.swift */; };
 		26B430F027E1154800F00210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B430EF27E1154800F00210 /* Assets.xcassets */; };
 		26B430F327E1154800F00210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B430F127E1154800F00210 /* LaunchScreen.storyboard */; };
 		26B4310D27E11E1600F00210 /* MenuItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B430FF27E11E1600F00210 /* MenuItemProtocol.swift */; };
@@ -219,6 +228,15 @@
 		26484FEB280736CF00002EE3 /* Indentation2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indentation2TableViewCell.swift; sourceTree = "<group>"; };
 		26484FED280736EC00002EE3 /* Indentation3TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indentation3TableViewCell.swift; sourceTree = "<group>"; };
 		26484FEF2807374C00002EE3 /* LeftSideSeparatorInsetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideSeparatorInsetTableViewCell.swift; sourceTree = "<group>"; };
+		26859E5D2808876900E233BB /* CollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		26859E5E2808876900E233BB /* CollectionBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionBadgeView.swift; sourceTree = "<group>"; };
+		26859E5F2808876900E233BB /* BigNumberCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigNumberCollectionViewCell.swift; sourceTree = "<group>"; };
+		26859E612808876900E233BB /* CollectionViewSectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewSectionsViewController.swift; sourceTree = "<group>"; };
+		26859E622808876900E233BB /* CollectionViewPagingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewPagingViewController.swift; sourceTree = "<group>"; };
+		26859E632808876900E233BB /* CollectionViewGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewGridViewController.swift; sourceTree = "<group>"; };
+		26859E642808876900E233BB /* CollectionViewBadgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewBadgeViewController.swift; sourceTree = "<group>"; };
+		26859E662808876900E233BB /* CollectionViewMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewMenuItem.swift; sourceTree = "<group>"; };
+		26859E672808876900E233BB /* CollectionViewMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewMenuViewController.swift; sourceTree = "<group>"; };
 		26B430E327E1154800F00210 /* UIKit-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B430EF27E1154800F00210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26B430F227E1154800F00210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -703,6 +721,46 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		26859E5B2808876900E233BB /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				26859E5C2808876900E233BB /* Cells */,
+				26859E652808876900E233BB /* Menu */,
+				26859E602808876900E233BB /* ViewControllers */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		26859E5C2808876900E233BB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				26859E5F2808876900E233BB /* BigNumberCollectionViewCell.swift */,
+				26859E5E2808876900E233BB /* CollectionBadgeView.swift */,
+				26859E5D2808876900E233BB /* CollectionHeaderView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		26859E602808876900E233BB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				26859E642808876900E233BB /* CollectionViewBadgeViewController.swift */,
+				26859E632808876900E233BB /* CollectionViewGridViewController.swift */,
+				26859E622808876900E233BB /* CollectionViewPagingViewController.swift */,
+				26859E612808876900E233BB /* CollectionViewSectionsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		26859E652808876900E233BB /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				26859E662808876900E233BB /* CollectionViewMenuItem.swift */,
+				26859E672808876900E233BB /* CollectionViewMenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		26B430DA27E1154700F00210 = {
 			isa = PBXGroup;
 			children = (
@@ -783,6 +841,7 @@
 		26B4310427E11E1600F00210 /* Main Menu ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				26859E5B2808876900E233BB /* CollectionView */,
 				26B4310527E11E1600F00210 /* AllControls */,
 				2606823527EE140100B641B2 /* Button */,
 				2606824F27F0725000B641B2 /* Label */,
@@ -916,6 +975,7 @@
 				26484F6A2806CBEE00002EE3 /* ScrollViewTwoDirectionsViewController.swift in Sources */,
 				2620623427F32AE000FD0CF3 /* ButtonImagePlacementViewController.swift in Sources */,
 				2606824627EE3D6C00B641B2 /* AllControlsStepperView.swift in Sources */,
+				26859E6E2808876900E233BB /* CollectionViewBadgeViewController.swift in Sources */,
 				26484FB028070C5B00002EE3 /* TableViewStylePlainViewController.swift in Sources */,
 				26484FDD2807226900002EE3 /* Value1StyleTableViewCell.swift in Sources */,
 				2631536C28030F9800939451 /* TextFieldClearButtonViewController.swift in Sources */,
@@ -928,11 +988,15 @@
 				2606824027EE3B3E00B641B2 /* AllControlsSwitchView.swift in Sources */,
 				2631536E28030F9800939451 /* TextFieldDisabledViewController.swift in Sources */,
 				2606824227EE3D4900B641B2 /* AllControlsSegmentedControlView.swift in Sources */,
+				26859E682808876900E233BB /* CollectionHeaderView.swift in Sources */,
 				26484FC528070C5B00002EE3 /* TableViewSelectionMenuViewController.swift in Sources */,
 				26484FC828070C5B00002EE3 /* CellSeparatorInsetsViewController.swift in Sources */,
+				26859E6C2808876900E233BB /* CollectionViewPagingViewController.swift in Sources */,
+				26859E6D2808876900E233BB /* CollectionViewGridViewController.swift in Sources */,
 				263153812803392A00939451 /* TextViewMenuViewController.swift in Sources */,
 				26484F6C2806CBEE00002EE3 /* ScrollViewMenuViewController.swift in Sources */,
 				26484FAF28070C5B00002EE3 /* TableViewStyleGroupedViewController.swift in Sources */,
+				26859E6F2808876900E233BB /* CollectionViewMenuItem.swift in Sources */,
 				2631536B28030F9800939451 /* TextFieldTraitsViewController.swift in Sources */,
 				26BBDB0D2801F1CB009647A3 /* KeyboardHelper.swift in Sources */,
 				2631536A28030F9800939451 /* TextFieldKeyboardTypeViewController.swift in Sources */,
@@ -968,6 +1032,8 @@
 				2620623127F32AE000FD0CF3 /* ButtonMenuItem.swift in Sources */,
 				26DBD4212801DE6D00BF2FCA /* StackViewController.swift in Sources */,
 				26484FDF2807228800002EE3 /* Value2StyleTableViewCell.swift in Sources */,
+				26859E6A2808876900E233BB /* BigNumberCollectionViewCell.swift in Sources */,
+				26859E6B2808876900E233BB /* CollectionViewSectionsViewController.swift in Sources */,
 				26484FC228070C5B00002EE3 /* TableViewSelectionMultipleViewController.swift in Sources */,
 				2631537F2803392300939451 /* TextViewMenuItem.swift in Sources */,
 				2606825B27F0731F00B641B2 /* TextStylesViewController.swift in Sources */,
@@ -982,6 +1048,7 @@
 				26484FB228070C5B00002EE3 /* TableViewStyleMenuViewController.swift in Sources */,
 				2620623027F32AE000FD0CF3 /* ButtonMenuViewController.swift in Sources */,
 				26484FEC280736CF00002EE3 /* Indentation2TableViewCell.swift in Sources */,
+				26859E702808876900E233BB /* CollectionViewMenuViewController.swift in Sources */,
 				2606825727F072F900B641B2 /* FontSizesViewController.swift in Sources */,
 				263153892803395900939451 /* TextViewNonEditableNonSelectableViewController.swift in Sources */,
 				2631536F28030F9800939451 /* BaseTextFieldViewController.swift in Sources */,
@@ -1000,6 +1067,7 @@
 				2620623227F32AE000FD0CF3 /* ButtonToggleViewController.swift in Sources */,
 				26484FB828070C5B00002EE3 /* CellStyleBodyViewController.swift in Sources */,
 				26484FE42807369A00002EE3 /* DefaultSeparatorInsetTableViewCell.swift in Sources */,
+				26859E692808876900E233BB /* CollectionBadgeView.swift in Sources */,
 				26484FB728070C5B00002EE3 /* TableViewSeparatorStyleMenuViewController.swift in Sources */,
 				26B4311227E11E1600F00210 /* MainMenuItem.swift in Sources */,
 				26484F692806CBEE00002EE3 /* ScrollViewVerticalViewController.swift in Sources */,
