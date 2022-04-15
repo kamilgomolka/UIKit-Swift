@@ -59,11 +59,8 @@ enum MainMenuItem: MenuItemProtocol {
 			return TableViewMenuViewController()
 		case .collectionView:
 			return CollectionViewMenuViewController()
-//		case .transitions:
-//			return ViewControllerTransitions
-			
-		default:
-			return nil
+		case .transitions:
+			return TransitionsMenuViewController()
         }
     }
 }

@@ -114,6 +114,11 @@
 		26859E6E2808876900E233BB /* CollectionViewBadgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26859E642808876900E233BB /* CollectionViewBadgeViewController.swift */; };
 		26859E6F2808876900E233BB /* CollectionViewMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26859E662808876900E233BB /* CollectionViewMenuItem.swift */; };
 		26859E702808876900E233BB /* CollectionViewMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26859E672808876900E233BB /* CollectionViewMenuViewController.swift */; };
+		268AEF5828091E2B006E8838 /* PageSheetWithDelegateTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268AEF4B28091E2B006E8838 /* PageSheetWithDelegateTransitionViewController.swift */; };
+		268AEF5B28091E2B006E8838 /* FullScreenPartialCurlTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268AEF4E28091E2B006E8838 /* FullScreenPartialCurlTransitionViewController.swift */; };
+		268AEF5E28091E2B006E8838 /* TransitionsMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268AEF5228091E2B006E8838 /* TransitionsMenuViewController.swift */; };
+		268AEF5F28091E2B006E8838 /* TransitionsMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268AEF5328091E2B006E8838 /* TransitionsMenuItem.swift */; };
+		268AEF61280920CE006E8838 /* SingleLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268AEF60280920CE006E8838 /* SingleLabelViewController.swift */; };
 		26B430F027E1154800F00210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B430EF27E1154800F00210 /* Assets.xcassets */; };
 		26B430F327E1154800F00210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B430F127E1154800F00210 /* LaunchScreen.storyboard */; };
 		26B4310D27E11E1600F00210 /* MenuItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B430FF27E11E1600F00210 /* MenuItemProtocol.swift */; };
@@ -237,6 +242,11 @@
 		26859E642808876900E233BB /* CollectionViewBadgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewBadgeViewController.swift; sourceTree = "<group>"; };
 		26859E662808876900E233BB /* CollectionViewMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewMenuItem.swift; sourceTree = "<group>"; };
 		26859E672808876900E233BB /* CollectionViewMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewMenuViewController.swift; sourceTree = "<group>"; };
+		268AEF4B28091E2B006E8838 /* PageSheetWithDelegateTransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageSheetWithDelegateTransitionViewController.swift; sourceTree = "<group>"; };
+		268AEF4E28091E2B006E8838 /* FullScreenPartialCurlTransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullScreenPartialCurlTransitionViewController.swift; sourceTree = "<group>"; };
+		268AEF5228091E2B006E8838 /* TransitionsMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionsMenuViewController.swift; sourceTree = "<group>"; };
+		268AEF5328091E2B006E8838 /* TransitionsMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionsMenuItem.swift; sourceTree = "<group>"; };
+		268AEF60280920CE006E8838 /* SingleLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLabelViewController.swift; sourceTree = "<group>"; };
 		26B430E327E1154800F00210 /* UIKit-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B430EF27E1154800F00210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26B430F227E1154800F00210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -761,6 +771,33 @@
 			path = Menu;
 			sourceTree = "<group>";
 		};
+		268AEF4528091E2B006E8838 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				268AEF5128091E2B006E8838 /* Menu */,
+				268AEF4628091E2B006E8838 /* ViewControllers */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		268AEF4628091E2B006E8838 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				268AEF4E28091E2B006E8838 /* FullScreenPartialCurlTransitionViewController.swift */,
+				268AEF4B28091E2B006E8838 /* PageSheetWithDelegateTransitionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		268AEF5128091E2B006E8838 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				268AEF5328091E2B006E8838 /* TransitionsMenuItem.swift */,
+				268AEF5228091E2B006E8838 /* TransitionsMenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		26B430DA27E1154700F00210 = {
 			isa = PBXGroup;
 			children = (
@@ -811,7 +848,6 @@
 		26B430FD27E11E1600F00210 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				26B430FE27E11E1600F00210 /* Base Menu */,
 				26B4310227E11E1600F00210 /* Base ViewController */,
 				26B4310727E11E1600F00210 /* Main Menu */,
 				26B4310427E11E1600F00210 /* Main Menu ViewControllers */,
@@ -832,8 +868,10 @@
 		26B4310227E11E1600F00210 /* Base ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				26B430FE27E11E1600F00210 /* Base Menu */,
 				26B4310327E11E1600F00210 /* BaseViewController.swift */,
 				26DBD4202801DE6D00BF2FCA /* StackViewController.swift */,
+				268AEF60280920CE006E8838 /* SingleLabelViewController.swift */,
 			);
 			path = "Base ViewController";
 			sourceTree = "<group>";
@@ -841,14 +879,15 @@
 		26B4310427E11E1600F00210 /* Main Menu ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				26859E5B2808876900E233BB /* CollectionView */,
 				26B4310527E11E1600F00210 /* AllControls */,
 				2606823527EE140100B641B2 /* Button */,
+				26859E5B2808876900E233BB /* CollectionView */,
 				2606824F27F0725000B641B2 /* Label */,
 				26484F602806CBEE00002EE3 /* ScrollView */,
 				26484F6D28070C5B00002EE3 /* TableView */,
 				2631535A28030F9800939451 /* TextField */,
 				2631537B2803390100939451 /* TextView */,
+				268AEF4528091E2B006E8838 /* Transitions */,
 			);
 			path = "Main Menu ViewControllers";
 			sourceTree = "<group>";
@@ -1005,6 +1044,8 @@
 				26484FEA280736C700002EE3 /* Indentation1TableViewCell.swift in Sources */,
 				26484FB128070C5B00002EE3 /* TableViewStyleMenuItem.swift in Sources */,
 				26484FE8280736B800002EE3 /* BothSidesSeparatorInsetTableViewCell.swift in Sources */,
+				268AEF5F28091E2B006E8838 /* TransitionsMenuItem.swift in Sources */,
+				268AEF5E28091E2B006E8838 /* TransitionsMenuViewController.swift in Sources */,
 				26484FCF28070CE100002EE3 /* SimpleTableViewCell.swift in Sources */,
 				26484FC928070C5B00002EE3 /* SimpleTableViewController.swift in Sources */,
 				2606824A27EE3D8A00B641B2 /* AllControlsActivityIndicatorView.swift in Sources */,
@@ -1037,6 +1078,7 @@
 				26484FC228070C5B00002EE3 /* TableViewSelectionMultipleViewController.swift in Sources */,
 				2631537F2803392300939451 /* TextViewMenuItem.swift in Sources */,
 				2606825B27F0731F00B641B2 /* TextStylesViewController.swift in Sources */,
+				268AEF5B28091E2B006E8838 /* FullScreenPartialCurlTransitionViewController.swift in Sources */,
 				2620623627F32AE000FD0CF3 /* ButtonStylesViewController.swift in Sources */,
 				263153832803394200939451 /* TextViewDataDetectorsViewController.swift in Sources */,
 				26484FAA28070C5B00002EE3 /* TableViewSectionIndexViewModel.swift in Sources */,
@@ -1074,7 +1116,9 @@
 				26484FAB28070C5B00002EE3 /* TableViewHeadersAndFoottersViewController.swift in Sources */,
 				26484FC728070C5B00002EE3 /* CellSeparatorInsetsSection.swift in Sources */,
 				26484FBF28070C5B00002EE3 /* CellStyleMenuItem.swift in Sources */,
+				268AEF61280920CE006E8838 /* SingleLabelViewController.swift in Sources */,
 				2620623527F32AE000FD0CF3 /* ButtonCornerStyleViewController.swift in Sources */,
+				268AEF5828091E2B006E8838 /* PageSheetWithDelegateTransitionViewController.swift in Sources */,
 				2606824E27EE3DA000B641B2 /* AllControlsPageControlView.swift in Sources */,
 				26B4310D27E11E1600F00210 /* MenuItemProtocol.swift in Sources */,
 			);
