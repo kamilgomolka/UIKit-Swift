@@ -1,5 +1,5 @@
 //
-//  FontWeightsViewController.swift
+//  LabelFontWeightsViewController.swift
 //  UIKit-Swift
 //
 //  Created by Kamil Gomółka on 27/03/2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FontWeightsViewController: StackViewController {
+class LabelFontWeightsViewController: StackViewController {
 	
 	// MARK: - Initialization
 	

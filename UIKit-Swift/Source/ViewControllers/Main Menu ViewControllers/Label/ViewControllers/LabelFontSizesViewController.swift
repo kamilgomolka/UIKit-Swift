@@ -1,5 +1,5 @@
 //
-//  FontSizesViewController.swift
+//  LabelFontSizesViewController.swift
 //  UIKit-Swift
 //
 //  Created by Kamil Gomółka on 27/03/2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FontSizesViewController: StackViewController {
+class LabelFontSizesViewController: StackViewController {
 	
 	// MARK: - Initialization
 	

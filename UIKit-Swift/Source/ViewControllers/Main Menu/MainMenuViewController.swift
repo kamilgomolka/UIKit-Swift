@@ -7,11 +7,23 @@
 
 import UIKit
 
-class MainMenuViewController: MenuViewController<MainMenuItem> {
-    
-    override func loadView() {
-        super.loadView()
-        
-        title = "UIKit-Swift"
-    }
+class MainMenuViewController: MenuViewController {
+	
+	// MARK: - Init
+	
+	init() {
+		super.init(items: MainMenuItems.all)
+	}
+	
+	required init?(coder: NSCoder) {
+		super.init(coder: coder)
+	}
+	
+	// MARK: - Lifecycle
+	
+	override func loadView() {
+		super.loadView()
+		
+		title = "UIKit-Swift"
+	}
 }

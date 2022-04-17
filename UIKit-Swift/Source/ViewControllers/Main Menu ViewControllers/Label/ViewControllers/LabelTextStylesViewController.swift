@@ -1,5 +1,5 @@
 //
-//  TextStylesViewController.swift
+//  LabelTextStylesViewController.swift
 //  UIKit-Swift
 //
 //  Created by Kamil Gomółka on 27/03/2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TextStylesViewController: StackViewController {
+class LabelTextStylesViewController: StackViewController {
 	
 	// MARK: - Initialization
 	
