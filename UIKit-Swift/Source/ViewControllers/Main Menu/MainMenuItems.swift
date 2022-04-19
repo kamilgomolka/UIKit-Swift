@@ -12,6 +12,10 @@ struct MainMenuItems {
 	static var all: [MenuItem] {
 		return [
 			MenuItem(
+				name: "Bars",
+				nestedItems: BarsMenuItems.all
+			),
+			MenuItem(
 				name: "All controls",
 				viewControllerProvider: { AllControlsViewController() }
 			),

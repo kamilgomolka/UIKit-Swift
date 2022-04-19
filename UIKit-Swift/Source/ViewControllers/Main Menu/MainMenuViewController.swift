@@ -25,5 +25,7 @@ class MainMenuViewController: MenuViewController {
 		super.loadView()
 		
 		title = "UIKit-Swift"
+		navigationController?.navigationBar.prefersLargeTitles = true
+		navigationItem.largeTitleDisplayMode = .never
 	}
 }
