@@ -11,7 +11,14 @@ struct BarsMenuItems {
 	
 	static var all: [MenuItem] {
 		return [
-			MenuItem(name: "Navigation bar", nestedItems: NavigationBarMenuItems.all),
+			MenuItem(
+				name: "Navigation bar",
+				nestedItems: NavigationBarMenuItems.all
+			),
+			MenuItem(
+				name: "Toolbar",
+				nestedItems: ToolbarMenuItems.all
+			),
 		]
 	}
 }

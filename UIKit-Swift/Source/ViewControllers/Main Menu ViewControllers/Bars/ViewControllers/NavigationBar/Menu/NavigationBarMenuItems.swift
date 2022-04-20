@@ -74,7 +74,7 @@ struct NavigationBarMenuItems {
 			MenuItem(
 				name: "Custom Back button [#2]",
 				viewControllerProvider: { NavigationBarCustomBackButtonViewController2() }
-			),
+			)
 		]
 	}
 }

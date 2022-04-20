@@ -132,6 +132,13 @@
 		26B4311327E11E1600F00210 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B4310927E11E1600F00210 /* MainMenuViewController.swift */; };
 		26B4311427E11E1600F00210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B4310B27E11E1600F00210 /* AppDelegate.swift */; };
 		26B4311527E11E1600F00210 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B4310C27E11E1600F00210 /* SceneDelegate.swift */; };
+		26B7C73E28109A82001889A2 /* ToolbarMenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B7C73D28109A82001889A2 /* ToolbarMenuItems.swift */; };
+		26B7C74228109AA0001889A2 /* BaseToolbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B7C74128109AA0001889A2 /* BaseToolbarViewController.swift */; };
+		26B7C74428109AA8001889A2 /* BaseToolbarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B7C74328109AA8001889A2 /* BaseToolbarCell.swift */; };
+		26B7C74628109B10001889A2 /* SimpleToolbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B7C74528109B10001889A2 /* SimpleToolbarViewController.swift */; };
+		26B7C74828109B19001889A2 /* ToolbarAndTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B7C74728109B19001889A2 /* ToolbarAndTableViewController.swift */; };
+		26B7C74A28109B3F001889A2 /* ToolbarSystemItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B7C74928109B3F001889A2 /* ToolbarSystemItemsViewController.swift */; };
+		26B7C74C28109B4A001889A2 /* ToolbarItemStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B7C74B28109B4A001889A2 /* ToolbarItemStyleViewController.swift */; };
 		26BBDB0D2801F1CB009647A3 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BBDB0C2801F1CB009647A3 /* KeyboardHelper.swift */; };
 		26DBD4212801DE6D00BF2FCA /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DBD4202801DE6D00BF2FCA /* StackViewController.swift */; };
 		26ED8F442809675E00D03738 /* TableViewEditingMenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED8F432809675E00D03738 /* TableViewEditingMenuItems.swift */; };
@@ -268,6 +275,13 @@
 		26B4310927E11E1600F00210 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		26B4310B27E11E1600F00210 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26B4310C27E11E1600F00210 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		26B7C73D28109A82001889A2 /* ToolbarMenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarMenuItems.swift; sourceTree = "<group>"; };
+		26B7C74128109AA0001889A2 /* BaseToolbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseToolbarViewController.swift; sourceTree = "<group>"; };
+		26B7C74328109AA8001889A2 /* BaseToolbarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseToolbarCell.swift; sourceTree = "<group>"; };
+		26B7C74528109B10001889A2 /* SimpleToolbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleToolbarViewController.swift; sourceTree = "<group>"; };
+		26B7C74728109B19001889A2 /* ToolbarAndTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarAndTableViewController.swift; sourceTree = "<group>"; };
+		26B7C74928109B3F001889A2 /* ToolbarSystemItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarSystemItemsViewController.swift; sourceTree = "<group>"; };
+		26B7C74B28109B4A001889A2 /* ToolbarItemStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarItemStyleViewController.swift; sourceTree = "<group>"; };
 		26BBDB0C2801F1CB009647A3 /* KeyboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHelper.swift; sourceTree = "<group>"; };
 		26DBD4202801DE6D00BF2FCA /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
 		26ED8F432809675E00D03738 /* TableViewEditingMenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewEditingMenuItems.swift; sourceTree = "<group>"; };
@@ -388,6 +402,8 @@
 			children = (
 				260E2DD7280D4E5200C2CA16 /* Base */,
 				260E2DE8280D774500C2CA16 /* NavigationBarButtonsViewController.swift */,
+				264CD4A7280F5287009FFF29 /* NavigationBarCustomBackButtonViewController.swift */,
+				264CD4A9280F57E9009FFF29 /* NavigationBarCustomBackButtonViewController2.swift */,
 				260E2DD5280D4D3400C2CA16 /* NavigationBarCustomTitleViewController.swift */,
 				260E2DE3280D629800C2CA16 /* NavigationBarGroupedLargeTitleViewController.swift */,
 				260E2DE5280D62A600C2CA16 /* NavigationBarGroupedSmallTiltleViewController.swift */,
@@ -395,8 +411,6 @@
 				260E2DEB280EAE4700C2CA16 /* NavigationBarMultipleButtonsViewController.swift */,
 				264CD4A5280F5188009FFF29 /* NavigationBarPromptViewController.swift */,
 				260E2DD3280D4D1F00C2CA16 /* NavigationBarSmallTiltleViewController.swift */,
-				264CD4A7280F5287009FFF29 /* NavigationBarCustomBackButtonViewController.swift */,
-				264CD4A9280F57E9009FFF29 /* NavigationBarCustomBackButtonViewController2.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -422,6 +436,7 @@
 			isa = PBXGroup;
 			children = (
 				260E2DC8280D4C8600C2CA16 /* NavigationBar */,
+				264CD4AB28100284009FFF29 /* Toolbar */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -803,6 +818,15 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		264CD4AB28100284009FFF29 /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				26B7C73C28109A76001889A2 /* Menu */,
+				26B7C73B28109A72001889A2 /* ViewControllers */,
+			);
+			path = Toolbar;
+			sourceTree = "<group>";
+		};
 		26859E5B2808876900E233BB /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -990,6 +1014,35 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
+		26B7C73B28109A72001889A2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				26B7C73F28109A88001889A2 /* Base */,
+				26B7C74528109B10001889A2 /* SimpleToolbarViewController.swift */,
+				26B7C74728109B19001889A2 /* ToolbarAndTableViewController.swift */,
+				26B7C74928109B3F001889A2 /* ToolbarSystemItemsViewController.swift */,
+				26B7C74B28109B4A001889A2 /* ToolbarItemStyleViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		26B7C73C28109A76001889A2 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				26B7C73D28109A82001889A2 /* ToolbarMenuItems.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		26B7C73F28109A88001889A2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				26B7C74128109AA0001889A2 /* BaseToolbarViewController.swift */,
+				26B7C74328109AA8001889A2 /* BaseToolbarCell.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		26BBDB0B2801F1A2009647A3 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -1099,13 +1152,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B7C74628109B10001889A2 /* SimpleToolbarViewController.swift in Sources */,
 				26484FDB2807225400002EE3 /* DefaultStyleTableViewCell.swift in Sources */,
 				26B4311427E11E1600F00210 /* AppDelegate.swift in Sources */,
 				26B4310E27E11E1600F00210 /* MenuCell.swift in Sources */,
 				26484FBB28070C5B00002EE3 /* CellStyleTitle3ViewController.swift in Sources */,
 				260E2DE9280D774500C2CA16 /* NavigationBarButtonsViewController.swift in Sources */,
+				26B7C74A28109B3F001889A2 /* ToolbarSystemItemsViewController.swift in Sources */,
 				260E2DE4280D629800C2CA16 /* NavigationBarGroupedLargeTitleViewController.swift in Sources */,
 				26484FE6280736AB00002EE3 /* ZeroSeparatorInsetTableViewCell.swift in Sources */,
+				26B7C74228109AA0001889A2 /* BaseToolbarViewController.swift in Sources */,
 				2631536828030F9800939451 /* TextFieldBorderStyleViewController.swift in Sources */,
 				26484FB528070C5B00002EE3 /* TableViewSeparatorStyleLineViewController.swift in Sources */,
 				26484FB928070C5B00002EE3 /* CellStyleLongTextViewController.swift in Sources */,
@@ -1156,6 +1212,7 @@
 				2606824A27EE3D8A00B641B2 /* AllControlsActivityIndicatorView.swift in Sources */,
 				263153852803394A00939451 /* TextViewEditableViewController.swift in Sources */,
 				260E2DDC280D4E7500C2CA16 /* BaseNavigationBarCell.swift in Sources */,
+				26B7C73E28109A82001889A2 /* ToolbarMenuItems.swift in Sources */,
 				2606824C27EE3D9700B641B2 /* AllControlsProgressView.swift in Sources */,
 				263153872803395300939451 /* TextViewNonEditableViewController.swift in Sources */,
 				26484FBA28070C5B00002EE3 /* CellStyleDefaultFontViewController.swift in Sources */,
@@ -1169,6 +1226,7 @@
 				26B4311027E11E1600F00210 /* BaseViewController.swift in Sources */,
 				26484FC628070C5B00002EE3 /* TableViewSelectionMenuItems.swift in Sources */,
 				260E2DEC280EAE4700C2CA16 /* NavigationBarMultipleButtonsViewController.swift in Sources */,
+				26B7C74428109AA8001889A2 /* BaseToolbarCell.swift in Sources */,
 				26B4310F27E11E1600F00210 /* MenuViewController.swift in Sources */,
 				26484FC428070C5B00002EE3 /* TableViewSelectionWithDeselectViewController.swift in Sources */,
 				2606823827EE140E00B641B2 /* ButtonClicksCounter.swift in Sources */,
@@ -1201,6 +1259,7 @@
 				2631536F28030F9800939451 /* BaseTextFieldViewController.swift in Sources */,
 				26484FC028070C5B00002EE3 /* CellSelectionStyleViewController.swift in Sources */,
 				26484FB628070C5B00002EE3 /* TableViewSeparatorStyleMenuItems.swift in Sources */,
+				26B7C74C28109B4A001889A2 /* ToolbarItemStyleViewController.swift in Sources */,
 				26484FD428071A5F00002EE3 /* Person.swift in Sources */,
 				2606825927F0731500B641B2 /* LabelFontWeightsViewController.swift in Sources */,
 				26484FBC28070C5B00002EE3 /* CellStyleSection.swift in Sources */,
@@ -1221,6 +1280,7 @@
 				26484F692806CBEE00002EE3 /* ScrollViewVerticalViewController.swift in Sources */,
 				26484FAB28070C5B00002EE3 /* TableViewHeadersAndFoottersViewController.swift in Sources */,
 				26484FC728070C5B00002EE3 /* CellSeparatorInsetsSection.swift in Sources */,
+				26B7C74828109B19001889A2 /* ToolbarAndTableViewController.swift in Sources */,
 				268AEF61280920CE006E8838 /* SingleLabelViewController.swift in Sources */,
 				2620623527F32AE000FD0CF3 /* ButtonCornerStyleViewController.swift in Sources */,
 				268AEF5828091E2B006E8838 /* PageSheetWithDelegateTransitionViewController.swift in Sources */,

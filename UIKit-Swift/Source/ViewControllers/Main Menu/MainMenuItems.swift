@@ -12,10 +12,6 @@ struct MainMenuItems {
 	static var all: [MenuItem] {
 		return [
 			MenuItem(
-				name: "Bars",
-				nestedItems: BarsMenuItems.all
-			),
-			MenuItem(
 				name: "All controls",
 				viewControllerProvider: { AllControlsViewController() }
 			),
@@ -50,6 +46,10 @@ struct MainMenuItems {
 			MenuItem(
 				name: "ViewController transitions",
 				nestedItems: TransitionsMenuItems.all
+			),
+			MenuItem(
+				name: "Bars",
+				nestedItems: BarsMenuItems.all
 			)
 		]
 	}
