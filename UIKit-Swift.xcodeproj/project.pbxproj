@@ -8,16 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2606823827EE140E00B641B2 /* ButtonClicksCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606823727EE140E00B641B2 /* ButtonClicksCounter.swift */; };
-		2606823B27EE161400B641B2 /* AllControlsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606823A27EE161400B641B2 /* AllControlsButtonView.swift */; };
-		2606823E27EE163000B641B2 /* AllControlsBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606823D27EE163000B641B2 /* AllControlsBaseView.swift */; };
-		2606824027EE3B3E00B641B2 /* AllControlsSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606823F27EE3B3E00B641B2 /* AllControlsSwitchView.swift */; };
-		2606824227EE3D4900B641B2 /* AllControlsSegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606824127EE3D4900B641B2 /* AllControlsSegmentedControlView.swift */; };
-		2606824427EE3D5C00B641B2 /* AllControlsTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606824327EE3D5C00B641B2 /* AllControlsTextFieldView.swift */; };
-		2606824627EE3D6C00B641B2 /* AllControlsStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606824527EE3D6C00B641B2 /* AllControlsStepperView.swift */; };
-		2606824827EE3D7B00B641B2 /* AllControlsSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606824727EE3D7B00B641B2 /* AllControlsSliderView.swift */; };
-		2606824A27EE3D8A00B641B2 /* AllControlsActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606824927EE3D8A00B641B2 /* AllControlsActivityIndicatorView.swift */; };
-		2606824C27EE3D9700B641B2 /* AllControlsProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606824B27EE3D9700B641B2 /* AllControlsProgressView.swift */; };
-		2606824E27EE3DA000B641B2 /* AllControlsPageControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606824D27EE3DA000B641B2 /* AllControlsPageControlView.swift */; };
 		2606825727F072F900B641B2 /* LabelFontSizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606825627F072F900B641B2 /* LabelFontSizesViewController.swift */; };
 		2606825927F0731500B641B2 /* LabelFontWeightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606825827F0731500B641B2 /* LabelFontWeightsViewController.swift */; };
 		2606825B27F0731F00B641B2 /* LabelTextStylesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606825A27F0731F00B641B2 /* LabelTextStylesViewController.swift */; };
@@ -113,6 +103,14 @@
 		264CD4A6280F5188009FFF29 /* NavigationBarPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264CD4A5280F5188009FFF29 /* NavigationBarPromptViewController.swift */; };
 		264CD4A8280F5287009FFF29 /* NavigationBarCustomBackButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264CD4A7280F5287009FFF29 /* NavigationBarCustomBackButtonViewController.swift */; };
 		264CD4AA280F57E9009FFF29 /* NavigationBarCustomBackButtonViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264CD4A9280F57E9009FFF29 /* NavigationBarCustomBackButtonViewController2.swift */; };
+		266EF04C281C9530000E7742 /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EF04B281C9530000E7742 /* PageControlViewController.swift */; };
+		266EF051281C9544000E7742 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EF050281C9544000E7742 /* ProgressViewController.swift */; };
+		266EF054281C9556000E7742 /* ActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EF053281C9556000E7742 /* ActivityIndicatorViewController.swift */; };
+		266EF05A281C9582000E7742 /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EF059281C9582000E7742 /* SwitchViewController.swift */; };
+		266EF05C281C958C000E7742 /* SegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EF05B281C958C000E7742 /* SegmentedControlViewController.swift */; };
+		266EF05E281C9598000E7742 /* StepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EF05D281C9598000E7742 /* StepperViewController.swift */; };
+		266EF060281C959F000E7742 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EF05F281C959F000E7742 /* SliderViewController.swift */; };
+		266EF066281CA9FD000E7742 /* ControlsMenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EF065281CA9FD000E7742 /* ControlsMenuItems.swift */; };
 		26859E682808876900E233BB /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26859E5D2808876900E233BB /* CollectionHeaderView.swift */; };
 		26859E692808876900E233BB /* CollectionBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26859E5E2808876900E233BB /* CollectionBadgeView.swift */; };
 		26859E6A2808876900E233BB /* BigNumberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26859E5F2808876900E233BB /* BigNumberCollectionViewCell.swift */; };
@@ -128,7 +126,6 @@
 		26B4310E27E11E1600F00210 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B4310027E11E1600F00210 /* MenuCell.swift */; };
 		26B4310F27E11E1600F00210 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B4310127E11E1600F00210 /* MenuViewController.swift */; };
 		26B4311027E11E1600F00210 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B4310327E11E1600F00210 /* BaseViewController.swift */; };
-		26B4311127E11E1600F00210 /* AllControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B4310627E11E1600F00210 /* AllControlsViewController.swift */; };
 		26B4311327E11E1600F00210 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B4310927E11E1600F00210 /* MainMenuViewController.swift */; };
 		26B4311427E11E1600F00210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B4310B27E11E1600F00210 /* AppDelegate.swift */; };
 		26B4311527E11E1600F00210 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B4310C27E11E1600F00210 /* SceneDelegate.swift */; };
@@ -157,16 +154,6 @@
 
 /* Begin PBXFileReference section */
 		2606823727EE140E00B641B2 /* ButtonClicksCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonClicksCounter.swift; sourceTree = "<group>"; };
-		2606823A27EE161400B641B2 /* AllControlsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsButtonView.swift; sourceTree = "<group>"; };
-		2606823D27EE163000B641B2 /* AllControlsBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsBaseView.swift; sourceTree = "<group>"; };
-		2606823F27EE3B3E00B641B2 /* AllControlsSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsSwitchView.swift; sourceTree = "<group>"; };
-		2606824127EE3D4900B641B2 /* AllControlsSegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsSegmentedControlView.swift; sourceTree = "<group>"; };
-		2606824327EE3D5C00B641B2 /* AllControlsTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsTextFieldView.swift; sourceTree = "<group>"; };
-		2606824527EE3D6C00B641B2 /* AllControlsStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsStepperView.swift; sourceTree = "<group>"; };
-		2606824727EE3D7B00B641B2 /* AllControlsSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsSliderView.swift; sourceTree = "<group>"; };
-		2606824927EE3D8A00B641B2 /* AllControlsActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsActivityIndicatorView.swift; sourceTree = "<group>"; };
-		2606824B27EE3D9700B641B2 /* AllControlsProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsProgressView.swift; sourceTree = "<group>"; };
-		2606824D27EE3DA000B641B2 /* AllControlsPageControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllControlsPageControlView.swift; sourceTree = "<group>"; };
 		2606825627F072F900B641B2 /* LabelFontSizesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFontSizesViewController.swift; sourceTree = "<group>"; };
 		2606825827F0731500B641B2 /* LabelFontWeightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFontWeightsViewController.swift; sourceTree = "<group>"; };
 		2606825A27F0731F00B641B2 /* LabelTextStylesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTextStylesViewController.swift; sourceTree = "<group>"; };
@@ -262,6 +249,14 @@
 		264CD4A5280F5188009FFF29 /* NavigationBarPromptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarPromptViewController.swift; sourceTree = "<group>"; };
 		264CD4A7280F5287009FFF29 /* NavigationBarCustomBackButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarCustomBackButtonViewController.swift; sourceTree = "<group>"; };
 		264CD4A9280F57E9009FFF29 /* NavigationBarCustomBackButtonViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarCustomBackButtonViewController2.swift; sourceTree = "<group>"; };
+		266EF04B281C9530000E7742 /* PageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
+		266EF050281C9544000E7742 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		266EF053281C9556000E7742 /* ActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorViewController.swift; sourceTree = "<group>"; };
+		266EF059281C9582000E7742 /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		266EF05B281C958C000E7742 /* SegmentedControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlViewController.swift; sourceTree = "<group>"; };
+		266EF05D281C9598000E7742 /* StepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperViewController.swift; sourceTree = "<group>"; };
+		266EF05F281C959F000E7742 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		266EF065281CA9FD000E7742 /* ControlsMenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsMenuItems.swift; sourceTree = "<group>"; };
 		26859E5D2808876900E233BB /* CollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
 		26859E5E2808876900E233BB /* CollectionBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionBadgeView.swift; sourceTree = "<group>"; };
 		26859E5F2808876900E233BB /* BigNumberCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigNumberCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -279,7 +274,6 @@
 		26B4310027E11E1600F00210 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		26B4310127E11E1600F00210 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		26B4310327E11E1600F00210 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		26B4310627E11E1600F00210 /* AllControlsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllControlsViewController.swift; sourceTree = "<group>"; };
 		26B4310927E11E1600F00210 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		26B4310B27E11E1600F00210 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26B4310C27E11E1600F00210 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -333,31 +327,6 @@
 				2606823727EE140E00B641B2 /* ButtonClicksCounter.swift */,
 			);
 			path = ButtonClicksCounter;
-			sourceTree = "<group>";
-		};
-		2606823927EE15E100B641B2 /* Subviews */ = {
-			isa = PBXGroup;
-			children = (
-				2606823C27EE162200B641B2 /* Base view */,
-				2606823A27EE161400B641B2 /* AllControlsButtonView.swift */,
-				2606823F27EE3B3E00B641B2 /* AllControlsSwitchView.swift */,
-				2606824127EE3D4900B641B2 /* AllControlsSegmentedControlView.swift */,
-				2606824327EE3D5C00B641B2 /* AllControlsTextFieldView.swift */,
-				2606824527EE3D6C00B641B2 /* AllControlsStepperView.swift */,
-				2606824727EE3D7B00B641B2 /* AllControlsSliderView.swift */,
-				2606824927EE3D8A00B641B2 /* AllControlsActivityIndicatorView.swift */,
-				2606824B27EE3D9700B641B2 /* AllControlsProgressView.swift */,
-				2606824D27EE3DA000B641B2 /* AllControlsPageControlView.swift */,
-			);
-			path = Subviews;
-			sourceTree = "<group>";
-		};
-		2606823C27EE162200B641B2 /* Base view */ = {
-			isa = PBXGroup;
-			children = (
-				2606823D27EE163000B641B2 /* AllControlsBaseView.swift */,
-			);
-			path = "Base view";
 			sourceTree = "<group>";
 		};
 		2606824F27F0725000B641B2 /* Label */ = {
@@ -844,6 +813,97 @@
 			path = Toolbar;
 			sourceTree = "<group>";
 		};
+		266EF04A281C9526000E7742 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				266EF04B281C9530000E7742 /* PageControlViewController.swift */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		266EF04F281C953C000E7742 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				266EF050281C9544000E7742 /* ProgressViewController.swift */,
+			);
+			path = ProgressView;
+			sourceTree = "<group>";
+		};
+		266EF052281C954D000E7742 /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				266EF053281C9556000E7742 /* ActivityIndicatorViewController.swift */,
+			);
+			path = ActivityIndicator;
+			sourceTree = "<group>";
+		};
+		266EF055281C9560000E7742 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				266EF05F281C959F000E7742 /* SliderViewController.swift */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		266EF056281C956E000E7742 /* Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				266EF05D281C9598000E7742 /* StepperViewController.swift */,
+			);
+			path = Stepper;
+			sourceTree = "<group>";
+		};
+		266EF057281C9573000E7742 /* SegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				266EF05B281C958C000E7742 /* SegmentedControlViewController.swift */,
+			);
+			path = SegmentedControl;
+			sourceTree = "<group>";
+		};
+		266EF058281C9578000E7742 /* Switch */ = {
+			isa = PBXGroup;
+			children = (
+				266EF059281C9582000E7742 /* SwitchViewController.swift */,
+			);
+			path = Switch;
+			sourceTree = "<group>";
+		};
+		266EF061281CA9A2000E7742 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				266EF063281CA9B2000E7742 /* Menu */,
+				266EF064281CA9B6000E7742 /* ViewControllers */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		266EF063281CA9B2000E7742 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				266EF065281CA9FD000E7742 /* ControlsMenuItems.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		266EF064281CA9B6000E7742 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				266EF052281C954D000E7742 /* ActivityIndicator */,
+				2606823527EE140100B641B2 /* Button */,
+				2606824F27F0725000B641B2 /* Label */,
+				266EF04A281C9526000E7742 /* PageControl */,
+				266EF04F281C953C000E7742 /* ProgressView */,
+				266EF057281C9573000E7742 /* SegmentedControl */,
+				266EF055281C9560000E7742 /* Slider */,
+				266EF056281C956E000E7742 /* Stepper */,
+				266EF058281C9578000E7742 /* Switch */,
+				2631535A28030F9800939451 /* TextField */,
+				2631537B2803390100939451 /* TextView */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		26859E5B2808876900E233BB /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -983,26 +1043,13 @@
 			isa = PBXGroup;
 			children = (
 				260E2DC7280D4C8200C2CA16 /* Bars */,
-				26B4310527E11E1600F00210 /* AllControls */,
-				2606823527EE140100B641B2 /* Button */,
 				26859E5B2808876900E233BB /* CollectionView */,
-				2606824F27F0725000B641B2 /* Label */,
+				266EF061281CA9A2000E7742 /* Controls */,
 				26484F602806CBEE00002EE3 /* ScrollView */,
 				26484F6D28070C5B00002EE3 /* TableView */,
-				2631535A28030F9800939451 /* TextField */,
-				2631537B2803390100939451 /* TextView */,
 				268AEF4528091E2B006E8838 /* Transitions */,
 			);
 			path = "Main Menu ViewControllers";
-			sourceTree = "<group>";
-		};
-		26B4310527E11E1600F00210 /* AllControls */ = {
-			isa = PBXGroup;
-			children = (
-				2606823927EE15E100B641B2 /* Subviews */,
-				26B4310627E11E1600F00210 /* AllControlsViewController.swift */,
-			);
-			path = AllControls;
 			sourceTree = "<group>";
 		};
 		26B4310727E11E1600F00210 /* Main Menu */ = {
@@ -1240,7 +1287,7 @@
 				2620623727F32AE000FD0CF3 /* OtherButtonsViewController.swift in Sources */,
 				26484F6A2806CBEE00002EE3 /* ScrollViewTwoDirectionsViewController.swift in Sources */,
 				2620623427F32AE000FD0CF3 /* ButtonImagePlacementViewController.swift in Sources */,
-				2606824627EE3D6C00B641B2 /* AllControlsStepperView.swift in Sources */,
+				266EF05A281C9582000E7742 /* SwitchViewController.swift in Sources */,
 				26859E6E2808876900E233BB /* CollectionViewBadgeViewController.swift in Sources */,
 				26ED8F482809683000D03738 /* TableViewSwipeActionsViewController.swift in Sources */,
 				26484FB028070C5B00002EE3 /* TableViewStylePlainViewController.swift in Sources */,
@@ -1250,14 +1297,11 @@
 				2620623327F32AE000FD0CF3 /* ButtonSystemSizesViewController.swift in Sources */,
 				260E2DB8280CB4C500C2CA16 /* TextFieldMenuItems.swift in Sources */,
 				263153752803329600939451 /* TextFieldAlignmentViewController.swift in Sources */,
-				2606824427EE3D5C00B641B2 /* AllControlsTextFieldView.swift in Sources */,
 				26484FC128070C5B00002EE3 /* CellSelectionStyleItem.swift in Sources */,
 				263153732803327900939451 /* TextFieldPasswordViewController.swift in Sources */,
 				2631538E28033BB400939451 /* MockDataLoader.swift in Sources */,
-				2606824027EE3B3E00B641B2 /* AllControlsSwitchView.swift in Sources */,
 				2631536E28030F9800939451 /* TextFieldDisabledViewController.swift in Sources */,
 				26ED8F442809675E00D03738 /* TableViewEditingMenuItems.swift in Sources */,
-				2606824227EE3D4900B641B2 /* AllControlsSegmentedControlView.swift in Sources */,
 				26859E682808876900E233BB /* CollectionHeaderView.swift in Sources */,
 				264CD4AA280F57E9009FFF29 /* NavigationBarCustomBackButtonViewController2.swift in Sources */,
 				260E2DD4280D4D1F00C2CA16 /* NavigationBarSmallTiltleViewController.swift in Sources */,
@@ -1282,19 +1326,21 @@
 				26484FC928070C5B00002EE3 /* SimpleTableViewController.swift in Sources */,
 				26ED8F8C2809860400D03738 /* TableViewReorderViewController.swift in Sources */,
 				260E2DBC280CB4D700C2CA16 /* TransitionsMenuItems.swift in Sources */,
-				2606824A27EE3D8A00B641B2 /* AllControlsActivityIndicatorView.swift in Sources */,
+				266EF05E281C9598000E7742 /* StepperViewController.swift in Sources */,
 				263153852803394A00939451 /* TextViewEditableViewController.swift in Sources */,
 				260E2DDC280D4E7500C2CA16 /* BaseNavigationBarCell.swift in Sources */,
+				266EF04C281C9530000E7742 /* PageControlViewController.swift in Sources */,
+				266EF05C281C958C000E7742 /* SegmentedControlViewController.swift in Sources */,
 				26B7C73E28109A82001889A2 /* ToolbarMenuItems.swift in Sources */,
-				2606824C27EE3D9700B641B2 /* AllControlsProgressView.swift in Sources */,
 				263153872803395300939451 /* TextViewNonEditableViewController.swift in Sources */,
 				26484FBA28070C5B00002EE3 /* CellStyleDefaultFontViewController.swift in Sources */,
 				26484FBD28070C5B00002EE3 /* CellStyleBaseViewController.swift in Sources */,
 				264CD4A6280F5188009FFF29 /* NavigationBarPromptViewController.swift in Sources */,
 				260E2DB0280CB2E100C2CA16 /* LabelMenuItems.swift in Sources */,
+				266EF051281C9544000E7742 /* ProgressViewController.swift in Sources */,
 				26484FF02807374C00002EE3 /* LeftSideSeparatorInsetTableViewCell.swift in Sources */,
 				26484FCA28070C5B00002EE3 /* CellAccessoryTypeItem.swift in Sources */,
-				2606823E27EE163000B641B2 /* AllControlsBaseView.swift in Sources */,
+				266EF054281C9556000E7742 /* ActivityIndicatorViewController.swift in Sources */,
 				264CD4A8280F5287009FFF29 /* NavigationBarCustomBackButtonViewController.swift in Sources */,
 				26B4311027E11E1600F00210 /* BaseViewController.swift in Sources */,
 				26F626F1281906AF00F384DD /* SimpleTabbarViewController.swift in Sources */,
@@ -1305,7 +1351,6 @@
 				26B4310F27E11E1600F00210 /* MenuViewController.swift in Sources */,
 				26484FC428070C5B00002EE3 /* TableViewSelectionWithDeselectViewController.swift in Sources */,
 				2606823827EE140E00B641B2 /* ButtonClicksCounter.swift in Sources */,
-				2606824827EE3D7B00B641B2 /* AllControlsSliderView.swift in Sources */,
 				2631536D28030F9800939451 /* TextFieldReturnKeyTypeViewController.swift in Sources */,
 				26484F682806CBEE00002EE3 /* ScrollViewHorizontalViewController.swift in Sources */,
 				26F626F0281906AF00F384DD /* ManyItemsTabbarViewController.swift in Sources */,
@@ -1326,8 +1371,6 @@
 				26484FAA28070C5B00002EE3 /* TableViewSectionIndexViewModel.swift in Sources */,
 				26484FE12807229F00002EE3 /* SubtitleStyleTableViewCell.swift in Sources */,
 				26484FCB28070C5B00002EE3 /* CellAccessoryTypeViewController.swift in Sources */,
-				26B4311127E11E1600F00210 /* AllControlsViewController.swift in Sources */,
-				2606823B27EE161400B641B2 /* AllControlsButtonView.swift in Sources */,
 				26484FEC280736CF00002EE3 /* Indentation2TableViewCell.swift in Sources */,
 				260E2DBA280CB4CE00C2CA16 /* TextViewMenuItems.swift in Sources */,
 				260E2DC0280CB7BB00C2CA16 /* CellStyleMenuItems.swift in Sources */,
@@ -1335,6 +1378,7 @@
 				263153892803395900939451 /* TextViewNonEditableNonSelectableViewController.swift in Sources */,
 				26F626F2281906AF00F384DD /* SimpleTabbarChild2.swift in Sources */,
 				2631536F28030F9800939451 /* BaseTextFieldViewController.swift in Sources */,
+				266EF066281CA9FD000E7742 /* ControlsMenuItems.swift in Sources */,
 				26484FC028070C5B00002EE3 /* CellSelectionStyleViewController.swift in Sources */,
 				26484FB628070C5B00002EE3 /* TableViewSeparatorStyleMenuItems.swift in Sources */,
 				26B7C74C28109B4A001889A2 /* ToolbarItemStyleViewController.swift in Sources */,
@@ -1353,6 +1397,7 @@
 				26484FB428070C5B00002EE3 /* TableViewSeparatorStyleNoneViewController.swift in Sources */,
 				260E2DBE280CB5CA00C2CA16 /* CollectionViewMenuItems.swift in Sources */,
 				2620623227F32AE000FD0CF3 /* ButtonToggleViewController.swift in Sources */,
+				266EF060281C959F000E7742 /* SliderViewController.swift in Sources */,
 				26484FB828070C5B00002EE3 /* CellStyleBodyViewController.swift in Sources */,
 				26484FE42807369A00002EE3 /* DefaultSeparatorInsetTableViewCell.swift in Sources */,
 				26859E692808876900E233BB /* CollectionBadgeView.swift in Sources */,
@@ -1364,7 +1409,6 @@
 				268AEF61280920CE006E8838 /* SingleLabelViewController.swift in Sources */,
 				2620623527F32AE000FD0CF3 /* ButtonCornerStyleViewController.swift in Sources */,
 				268AEF5828091E2B006E8838 /* PageSheetWithDelegateTransitionViewController.swift in Sources */,
-				2606824E27EE3DA000B641B2 /* AllControlsPageControlView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

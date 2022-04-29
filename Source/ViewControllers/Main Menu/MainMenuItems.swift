@@ -12,24 +12,16 @@ struct MainMenuItems {
 	static var all: [MenuItem] {
 		return [
 			MenuItem(
-				name: "All controls",
-				viewControllerProvider: { AllControlsViewController() }
+				name: "Bars",
+				nestedItems: BarsMenuItems.all
 			),
 			MenuItem(
-				name: "Label",
-				nestedItems: LabelMenuItems.all
+				name: "CollectionView",
+				nestedItems: CollectionViewMenuItems.all
 			),
 			MenuItem(
-				name: "Button",
-				nestedItems: ButtonMenuItems.all
-			),
-			MenuItem(
-				name: "TextField",
-				nestedItems: TextFieldMenuItems.all
-			),
-			MenuItem(
-				name: "TextView",
-				nestedItems: TextViewMenuItems.all
+				name: "Controls",
+				nestedItems: ControlsMenuItems.all
 			),
 			MenuItem(
 				name: "ScrollView",
@@ -40,17 +32,9 @@ struct MainMenuItems {
 				nestedItems: TableViewMenuItems.all
 			),
 			MenuItem(
-				name: "CollectionView",
-				nestedItems: CollectionViewMenuItems.all
-			),
-			MenuItem(
 				name: "ViewController transitions",
 				nestedItems: TransitionsMenuItems.all
 			),
-			MenuItem(
-				name: "Bars",
-				nestedItems: BarsMenuItems.all
-			)
 		]
 	}
 }
