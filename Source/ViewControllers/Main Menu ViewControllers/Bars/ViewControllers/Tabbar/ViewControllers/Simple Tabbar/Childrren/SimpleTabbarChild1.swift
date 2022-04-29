@@ -1,38 +1,65 @@
 //
-//  BaseNavigationBarViewController.swift
+//  SimpleTabbarChild1.swift
 //  UIKit-Swift
 //
-//  Created by Kamil Gomółka on 18/04/2022.
+//  Created by Kamil Gomółka on 27/04/2022.
 //
 
 import UIKit
 
-class BaseNavigationBarViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class SimpleTabbarChild1: UIViewController, UITableViewDataSource, UITableViewDelegate {
 	
 	// MARK: - Properties
 	
-	var tableView: UITableView?
+	let tableView = UITableView(frame: .zero, style: .plain)
+	
+	// MARK: - Init
+	
+	init() {
+		super.init(nibName: nil, bundle: nil)
+		
+		print("SimpleTabbarChild1 - init")
+		
+		setupTabbarItem()
+	}
+	
+	required init?(coder: NSCoder) {
+		super.init(coder: coder)
+		
+		print("SimpleTabbarChild1 - init(coder:)")
+		
+		setupTabbarItem()
+	}
 	
 	// MARK: - Lifecycle
 	
 	override func loadView() {
 		super.loadView()
 		
-		tableView = createTableView()
+		print("SimpleTabbarChild1 - loadView")
+		
 		setupTableView()
+	}
+	
+	deinit {
+		print("SimpleTabbarChild1 - deinit")
+	}
+	
+	override func viewWillAppear(_ animated: Bool) {
+		super.viewWillAppear(animated)
+		
+		print("SimpleTabbarChild1 - viewWillAppear")
+	}
+	
+	override func viewWillDisappear(_ animated: Bool) {
+		super.viewWillDisappear(animated)
+		
+		print("SimpleTabbarChild1 - viewWillDisappear")
 	}
 	
 	// MARK: - Setup
 	
-	func createTableView() -> UITableView {
-		return UITableView(frame: .zero, style: .plain)
-	}
-	
 	func setupTableView() {
-		guard let tableView = tableView else {
-			return
-		}
-		
 		tableView.dataSource = self
 		tableView.delegate = self
 		tableView.translatesAutoresizingMaskIntoConstraints = false
@@ -43,6 +70,11 @@ class BaseNavigationBarViewController: UIViewController, UITableViewDataSource, 
 		tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
 		tableView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
 		tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+	}
+	
+	func setupTabbarItem() {
+		tabBarItem.title = "Child1"
+		tabBarItem.image = UIImage(systemName: "star.fill")
 	}
 	
 	// MARK: - UITableViewDataSource
@@ -69,4 +101,3 @@ class BaseNavigationBarViewController: UIViewController, UITableViewDataSource, 
 		tableView.deselectRow(at: indexPath, animated: true)
 	}
 }
-

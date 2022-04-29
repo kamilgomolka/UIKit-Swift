@@ -145,6 +145,14 @@
 		26ED8F482809683000D03738 /* TableViewSwipeActionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED8F472809683000D03738 /* TableViewSwipeActionsViewController.swift */; };
 		26ED8F4A280978FA00D03738 /* TableViewAddAndDeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED8F49280978FA00D03738 /* TableViewAddAndDeleteViewController.swift */; };
 		26ED8F8C2809860400D03738 /* TableViewReorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED8F8B2809860400D03738 /* TableViewReorderViewController.swift */; };
+		26F626E32819062A00F384DD /* TabbarMenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F626E22819062A00F384DD /* TabbarMenuItems.swift */; };
+		26F626F0281906AF00F384DD /* ManyItemsTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F626E8281906AF00F384DD /* ManyItemsTabbarViewController.swift */; };
+		26F626F1281906AF00F384DD /* SimpleTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F626EA281906AF00F384DD /* SimpleTabbarViewController.swift */; };
+		26F626F2281906AF00F384DD /* SimpleTabbarChild2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F626EC281906AF00F384DD /* SimpleTabbarChild2.swift */; };
+		26F626F3281906AF00F384DD /* SimpleTabbarChild4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F626ED281906AF00F384DD /* SimpleTabbarChild4.swift */; };
+		26F626F4281906AF00F384DD /* SimpleTabbarChild3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F626EE281906AF00F384DD /* SimpleTabbarChild3.swift */; };
+		26F626F5281906AF00F384DD /* SimpleTabbarChild1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F626EF281906AF00F384DD /* SimpleTabbarChild1.swift */; };
+		26F626FB281913B800F384DD /* BadgeTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F626FA281913B800F384DD /* BadgeTabbarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -288,6 +296,14 @@
 		26ED8F472809683000D03738 /* TableViewSwipeActionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSwipeActionsViewController.swift; sourceTree = "<group>"; };
 		26ED8F49280978FA00D03738 /* TableViewAddAndDeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAddAndDeleteViewController.swift; sourceTree = "<group>"; };
 		26ED8F8B2809860400D03738 /* TableViewReorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewReorderViewController.swift; sourceTree = "<group>"; };
+		26F626E22819062A00F384DD /* TabbarMenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarMenuItems.swift; sourceTree = "<group>"; };
+		26F626E8281906AF00F384DD /* ManyItemsTabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManyItemsTabbarViewController.swift; sourceTree = "<group>"; };
+		26F626EA281906AF00F384DD /* SimpleTabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTabbarViewController.swift; sourceTree = "<group>"; };
+		26F626EC281906AF00F384DD /* SimpleTabbarChild2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTabbarChild2.swift; sourceTree = "<group>"; };
+		26F626ED281906AF00F384DD /* SimpleTabbarChild4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTabbarChild4.swift; sourceTree = "<group>"; };
+		26F626EE281906AF00F384DD /* SimpleTabbarChild3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTabbarChild3.swift; sourceTree = "<group>"; };
+		26F626EF281906AF00F384DD /* SimpleTabbarChild1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTabbarChild1.swift; sourceTree = "<group>"; };
+		26F626FA281913B800F384DD /* BadgeTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeTabbarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -436,6 +452,7 @@
 			isa = PBXGroup;
 			children = (
 				260E2DC8280D4C8600C2CA16 /* NavigationBar */,
+				26F626DE281905F600F384DD /* Tabbar */,
 				264CD4AB28100284009FFF29 /* Toolbar */,
 			);
 			path = ViewControllers;
@@ -1071,6 +1088,69 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		26F626DE281905F600F384DD /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				26F626E12819061F00F384DD /* Menu */,
+				26F626E6281906AF00F384DD /* ViewControllers */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		26F626E12819061F00F384DD /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				26F626E22819062A00F384DD /* TabbarMenuItems.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		26F626E6281906AF00F384DD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				26F626F9281913B100F384DD /* Badge */,
+				26F626E7281906AF00F384DD /* Many Items */,
+				26F626E9281906AF00F384DD /* Simple Tabbar */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		26F626E7281906AF00F384DD /* Many Items */ = {
+			isa = PBXGroup;
+			children = (
+				26F626E8281906AF00F384DD /* ManyItemsTabbarViewController.swift */,
+			);
+			path = "Many Items";
+			sourceTree = "<group>";
+		};
+		26F626E9281906AF00F384DD /* Simple Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				26F626EB281906AF00F384DD /* Childrren */,
+				26F626EA281906AF00F384DD /* SimpleTabbarViewController.swift */,
+			);
+			path = "Simple Tabbar";
+			sourceTree = "<group>";
+		};
+		26F626EB281906AF00F384DD /* Childrren */ = {
+			isa = PBXGroup;
+			children = (
+				26F626EF281906AF00F384DD /* SimpleTabbarChild1.swift */,
+				26F626EC281906AF00F384DD /* SimpleTabbarChild2.swift */,
+				26F626EE281906AF00F384DD /* SimpleTabbarChild3.swift */,
+				26F626ED281906AF00F384DD /* SimpleTabbarChild4.swift */,
+			);
+			path = Childrren;
+			sourceTree = "<group>";
+		};
+		26F626F9281913B100F384DD /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				26F626FA281913B800F384DD /* BadgeTabbarViewController.swift */,
+			);
+			path = Badge;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1166,6 +1246,7 @@
 				26484FB028070C5B00002EE3 /* TableViewStylePlainViewController.swift in Sources */,
 				26484FDD2807226900002EE3 /* Value1StyleTableViewCell.swift in Sources */,
 				2631536C28030F9800939451 /* TextFieldClearButtonViewController.swift in Sources */,
+				26F626FB281913B800F384DD /* BadgeTabbarViewController.swift in Sources */,
 				2620623327F32AE000FD0CF3 /* ButtonSystemSizesViewController.swift in Sources */,
 				260E2DB8280CB4C500C2CA16 /* TextFieldMenuItems.swift in Sources */,
 				263153752803329600939451 /* TextFieldAlignmentViewController.swift in Sources */,
@@ -1216,21 +1297,25 @@
 				2606823E27EE163000B641B2 /* AllControlsBaseView.swift in Sources */,
 				264CD4A8280F5287009FFF29 /* NavigationBarCustomBackButtonViewController.swift in Sources */,
 				26B4311027E11E1600F00210 /* BaseViewController.swift in Sources */,
+				26F626F1281906AF00F384DD /* SimpleTabbarViewController.swift in Sources */,
 				26484FC628070C5B00002EE3 /* TableViewSelectionMenuItems.swift in Sources */,
 				260E2DEC280EAE4700C2CA16 /* NavigationBarMultipleButtonsViewController.swift in Sources */,
 				26B7C74428109AA8001889A2 /* BaseToolbarCell.swift in Sources */,
+				26F626F4281906AF00F384DD /* SimpleTabbarChild3.swift in Sources */,
 				26B4310F27E11E1600F00210 /* MenuViewController.swift in Sources */,
 				26484FC428070C5B00002EE3 /* TableViewSelectionWithDeselectViewController.swift in Sources */,
 				2606823827EE140E00B641B2 /* ButtonClicksCounter.swift in Sources */,
 				2606824827EE3D7B00B641B2 /* AllControlsSliderView.swift in Sources */,
 				2631536D28030F9800939451 /* TextFieldReturnKeyTypeViewController.swift in Sources */,
 				26484F682806CBEE00002EE3 /* ScrollViewHorizontalViewController.swift in Sources */,
+				26F626F0281906AF00F384DD /* ManyItemsTabbarViewController.swift in Sources */,
 				26DBD4212801DE6D00BF2FCA /* StackViewController.swift in Sources */,
 				26484FDF2807228800002EE3 /* Value2StyleTableViewCell.swift in Sources */,
 				260E2DB4280CB4B200C2CA16 /* ScrollViewMenuItems.swift in Sources */,
 				26859E6A2808876900E233BB /* BigNumberCollectionViewCell.swift in Sources */,
 				26859E6B2808876900E233BB /* CollectionViewSectionsViewController.swift in Sources */,
 				26484FC228070C5B00002EE3 /* TableViewSelectionMultipleViewController.swift in Sources */,
+				26F626F5281906AF00F384DD /* SimpleTabbarChild1.swift in Sources */,
 				260E2DB6280CB4BF00C2CA16 /* TableViewMenuItems.swift in Sources */,
 				2606825B27F0731F00B641B2 /* LabelTextStylesViewController.swift in Sources */,
 				268AEF5B28091E2B006E8838 /* FullScreenPartialCurlTransitionViewController.swift in Sources */,
@@ -1248,6 +1333,7 @@
 				260E2DC0280CB7BB00C2CA16 /* CellStyleMenuItems.swift in Sources */,
 				2606825727F072F900B641B2 /* LabelFontSizesViewController.swift in Sources */,
 				263153892803395900939451 /* TextViewNonEditableNonSelectableViewController.swift in Sources */,
+				26F626F2281906AF00F384DD /* SimpleTabbarChild2.swift in Sources */,
 				2631536F28030F9800939451 /* BaseTextFieldViewController.swift in Sources */,
 				26484FC028070C5B00002EE3 /* CellSelectionStyleViewController.swift in Sources */,
 				26484FB628070C5B00002EE3 /* TableViewSeparatorStyleMenuItems.swift in Sources */,
@@ -1258,6 +1344,7 @@
 				260E2DDA280D4E6500C2CA16 /* BaseNavigationBarViewController.swift in Sources */,
 				26484FAE28070C5B00002EE3 /* TableViewStyleInsetGroupedViewController.swift in Sources */,
 				260E2DAC280CA30200C2CA16 /* MenuItem.swift in Sources */,
+				26F626F3281906AF00F384DD /* SimpleTabbarChild4.swift in Sources */,
 				26484FEE280736EC00002EE3 /* Indentation3TableViewCell.swift in Sources */,
 				26484FAD28070C5B00002EE3 /* TableViewSectionHeaderView.swift in Sources */,
 				260E2DE0280D5C1C00C2CA16 /* BarsMenuItems.swift in Sources */,
@@ -1269,6 +1356,7 @@
 				26484FB828070C5B00002EE3 /* CellStyleBodyViewController.swift in Sources */,
 				26484FE42807369A00002EE3 /* DefaultSeparatorInsetTableViewCell.swift in Sources */,
 				26859E692808876900E233BB /* CollectionBadgeView.swift in Sources */,
+				26F626E32819062A00F384DD /* TabbarMenuItems.swift in Sources */,
 				26484F692806CBEE00002EE3 /* ScrollViewVerticalViewController.swift in Sources */,
 				26484FAB28070C5B00002EE3 /* TableViewHeadersAndFoottersViewController.swift in Sources */,
 				26484FC728070C5B00002EE3 /* CellSeparatorInsetsSection.swift in Sources */,

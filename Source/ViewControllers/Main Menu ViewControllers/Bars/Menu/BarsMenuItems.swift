@@ -16,6 +16,10 @@ struct BarsMenuItems {
 				nestedItems: NavigationBarMenuItems.all
 			),
 			MenuItem(
+				name: "Tabbar",
+				nestedItems: TabbarMenuItems.all
+			),
+			MenuItem(
 				name: "Toolbar",
 				nestedItems: ToolbarMenuItems.all
 			),
