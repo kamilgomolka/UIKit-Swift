@@ -28,7 +28,7 @@ class ManyItemsTabbarViewController: UITabBarController {
 	}
 	
 	func createViewController(index: Int) -> UIViewController {
-		let viewController = SingleLabelViewController(labelText: "Item \(index)", withCloseButton: false)
+		let viewController = SingleLabelViewController(labelText: "Item \(index)")
 		
 		viewController.tabBarItem = UITabBarItem(
 			title: "Item \(index)",

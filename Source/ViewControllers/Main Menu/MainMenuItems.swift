@@ -24,6 +24,10 @@ struct MainMenuItems {
 				nestedItems: ControlsMenuItems.all
 			),
 			MenuItem(
+				name: "PageViewController",
+				viewControllerProvider: { PageViewController() }
+			),
+			MenuItem(
 				name: "ScrollView",
 				nestedItems: ScrollViewMenuItems.all
 			),

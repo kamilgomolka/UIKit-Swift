@@ -111,6 +111,7 @@
 		266EF05E281C9598000E7742 /* StepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EF05D281C9598000E7742 /* StepperViewController.swift */; };
 		266EF060281C959F000E7742 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EF05F281C959F000E7742 /* SliderViewController.swift */; };
 		266EF066281CA9FD000E7742 /* ControlsMenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EF065281CA9FD000E7742 /* ControlsMenuItems.swift */; };
+		266EF075281CAE9B000E7742 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EF074281CAE9B000E7742 /* PageViewController.swift */; };
 		26859E682808876900E233BB /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26859E5D2808876900E233BB /* CollectionHeaderView.swift */; };
 		26859E692808876900E233BB /* CollectionBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26859E5E2808876900E233BB /* CollectionBadgeView.swift */; };
 		26859E6A2808876900E233BB /* BigNumberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26859E5F2808876900E233BB /* BigNumberCollectionViewCell.swift */; };
@@ -257,6 +258,7 @@
 		266EF05D281C9598000E7742 /* StepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperViewController.swift; sourceTree = "<group>"; };
 		266EF05F281C959F000E7742 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
 		266EF065281CA9FD000E7742 /* ControlsMenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsMenuItems.swift; sourceTree = "<group>"; };
+		266EF074281CAE9B000E7742 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		26859E5D2808876900E233BB /* CollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
 		26859E5E2808876900E233BB /* CollectionBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionBadgeView.swift; sourceTree = "<group>"; };
 		26859E5F2808876900E233BB /* BigNumberCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigNumberCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -904,6 +906,14 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		266EF073281CAE8F000E7742 /* PageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				266EF074281CAE9B000E7742 /* PageViewController.swift */,
+			);
+			path = PageViewController;
+			sourceTree = "<group>";
+		};
 		26859E5B2808876900E233BB /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -1042,6 +1052,7 @@
 		26B4310427E11E1600F00210 /* Main Menu ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				266EF073281CAE8F000E7742 /* PageViewController */,
 				260E2DC7280D4C8200C2CA16 /* Bars */,
 				26859E5B2808876900E233BB /* CollectionView */,
 				266EF061281CA9A2000E7742 /* Controls */,
@@ -1397,6 +1408,7 @@
 				26484FB428070C5B00002EE3 /* TableViewSeparatorStyleNoneViewController.swift in Sources */,
 				260E2DBE280CB5CA00C2CA16 /* CollectionViewMenuItems.swift in Sources */,
 				2620623227F32AE000FD0CF3 /* ButtonToggleViewController.swift in Sources */,
+				266EF075281CAE9B000E7742 /* PageViewController.swift in Sources */,
 				266EF060281C959F000E7742 /* SliderViewController.swift in Sources */,
 				26484FB828070C5B00002EE3 /* CellStyleBodyViewController.swift in Sources */,
 				26484FE42807369A00002EE3 /* DefaultSeparatorInsetTableViewCell.swift in Sources */,

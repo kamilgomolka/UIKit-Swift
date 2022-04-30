@@ -12,7 +12,7 @@ class SimpleTabbarChild3: SingleLabelViewController {
 	// MARK: - Init
 	
 	init() {
-		super.init(labelText: "Child3", withCloseButton: false)
+		super.init(labelText: "Child3")
 		
 		print("SimpleTabbarChild3 - init")
 		

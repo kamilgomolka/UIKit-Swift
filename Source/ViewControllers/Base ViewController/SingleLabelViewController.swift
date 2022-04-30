@@ -12,6 +12,7 @@ class SingleLabelViewController: UIViewController {
 	// MARK: - Properties
 	
 	let withCloseButton: Bool
+	let backgroundColor: UIColor
 	
 	var label: UILabel = {
 		let label = UILabel()
@@ -24,8 +25,11 @@ class SingleLabelViewController: UIViewController {
 	
 	// MARK: - Init
 
-	init(labelText: String, withCloseButton: Bool) {
+	init(labelText: String,
+		 withCloseButton: Bool = false,
+		 backgroundColor: UIColor = .systemBackground) {
 		self.withCloseButton = withCloseButton
+		self.backgroundColor = backgroundColor
 		
 		super.init(nibName: nil, bundle: nil)
 		
@@ -34,6 +38,7 @@ class SingleLabelViewController: UIViewController {
 	
 	required init?(coder: NSCoder) {
 		withCloseButton = false
+		backgroundColor = .systemBackground
 		
 		super.init(coder: coder)
 	}
@@ -43,7 +48,7 @@ class SingleLabelViewController: UIViewController {
 	override func loadView() {
 		super.loadView()
 		
-		view.backgroundColor = UIColor.systemBackground
+		view.backgroundColor = backgroundColor
 		setupLabel()
 		setupCloseButton()
 	}
