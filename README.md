@@ -1,13 +1,14 @@
 # UIKit-Swift
 
-This project presents usage of standard elements from UIKit Framework.
-No 3rd party libraries, no subclassing of UIControls, no big extensions. 
-Just plain usage of visual controls provided by Apple, and testing how it looks after changing available properties.
+This project presents usage of elements from UIKit Framework.
+
+No 3rd party libraries, no subclassing of UIControls, no big extensions. Just plain usage of visual controls provided by Apple, and testing how it looks after changing available properties.
 
 ### This project is written in two versions:
+
 1) [UIKit-Storyboard](https://github.com/kamilgomolka/UIKit-Swift) : Views are created in Storybaoards / Xibs.
 2) [UIKit-Swift](https://github.com/kamilgomolka/UIKit-Storyboard) : Views are created in code.
-	
+
 Besides the way of creating views, these two projects are more or less the same, although there might be some differences.  
 
 ### Supported Devices
