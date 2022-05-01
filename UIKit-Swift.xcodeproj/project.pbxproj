@@ -288,6 +288,7 @@
 		26B7C74B28109B4A001889A2 /* ToolbarItemStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarItemStyleViewController.swift; sourceTree = "<group>"; };
 		26BBDB0C2801F1CB009647A3 /* KeyboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHelper.swift; sourceTree = "<group>"; };
 		26DBD4202801DE6D00BF2FCA /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		26E43F1D281EE84A00C1616C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26ED8F432809675E00D03738 /* TableViewEditingMenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewEditingMenuItems.swift; sourceTree = "<group>"; };
 		26ED8F472809683000D03738 /* TableViewSwipeActionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSwipeActionsViewController.swift; sourceTree = "<group>"; };
 		26ED8F49280978FA00D03738 /* TableViewAddAndDeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAddAndDeleteViewController.swift; sourceTree = "<group>"; };
@@ -984,6 +985,7 @@
 			children = (
 				26B430FC27E11E1600F00210 /* Source */,
 				26B430FA27E11D6000F00210 /* Supporting files */,
+				26E43F1D281EE84A00C1616C /* README.md */,
 				26B430E427E1154800F00210 /* Products */,
 			);
 			sourceTree = "<group>";
