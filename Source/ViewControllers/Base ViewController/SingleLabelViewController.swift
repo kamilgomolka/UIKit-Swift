@@ -74,6 +74,6 @@ class SingleLabelViewController: UIViewController {
 	// MARK: - Actions
 	
 	@objc func close() {
-		dismiss(animated: true, completion: nil)
+		dismiss(animated: true)
 	}
 }

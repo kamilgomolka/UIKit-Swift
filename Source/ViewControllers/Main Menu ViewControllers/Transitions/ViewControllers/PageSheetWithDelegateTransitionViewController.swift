@@ -75,7 +75,7 @@ class PageSheetWithDelegateTransitionViewController: UIViewController {
 		// Save changes here
 		//
 		
-		dismiss(animated: true, completion: nil)
+		dismiss(animated: true)
 	}
 }
 
@@ -99,7 +99,7 @@ extension PageSheetWithDelegateTransitionViewController: UIAdaptivePresentationC
 			title: "Discard changes",
 			style: .destructive,
 			handler: { [weak self] _ in
-				self?.dismiss(animated: true, completion: nil)
+				self?.dismiss(animated: true)
 			}))
 		
 		alert.addAction(UIAlertAction(
@@ -107,6 +107,6 @@ extension PageSheetWithDelegateTransitionViewController: UIAdaptivePresentationC
 			style: .cancel,
 			handler: nil))
 		
-		present(alert, animated: true, completion: nil)
+		present(alert, animated: true)
 	}
 }

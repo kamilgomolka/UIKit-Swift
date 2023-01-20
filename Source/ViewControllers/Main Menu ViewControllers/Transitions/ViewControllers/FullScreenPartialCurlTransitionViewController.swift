@@ -31,6 +31,6 @@ class FullScreenPartialCurlTransitionViewController: SingleLabelViewController {
 	// MARK: - Actions
     
     @objc override func close() {
-        dismiss(animated: false, completion: nil)
+        dismiss(animated: false)
     }
 }
