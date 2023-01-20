@@ -7,106 +7,79 @@
 
 import UIKit
 
-class PageSheetWithDelegateTransitionViewController: UIViewController {
-	
-	// MARK: - Properties
-	
-	var titleLabel: UILabel = {
-		let label = UILabel()
-		label.text = "Page sheet + Action on close"
-		label.font = UIFont.preferredFont(forTextStyle: .title1)
-		label.textAlignment = .center
-		label.numberOfLines = 0
-		label.translatesAutoresizingMaskIntoConstraints = false
-		return label
-	}()
-	
-	var subtitleLabel: UILabel = {
-		let label = UILabel()
-		label.text = "(Try to swipe down)"
-		label.font = UIFont.preferredFont(forTextStyle: .body)
-		label.textColor = .systemGray
-		label.textAlignment = .center
-		label.numberOfLines = 0
-		label.translatesAutoresizingMaskIntoConstraints = false
-		return label
-	}()
-	
-	// MARK: - Lifecycle
-	
-	override func loadView() {
-		super.loadView()
-		
-		view.backgroundColor = UIColor.systemBackground
-		isModalInPresentation = true
-		navigationController?.presentationController?.delegate = self
-		
-		setupLabel()
-		setupCloseButton()
-	}
-	
-	func setupLabel() {
-		view.addSubview(titleLabel)
-		view.addSubview(subtitleLabel)
-		
-		titleLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20.0).isActive = true
-		titleLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20.0).isActive = true
-		titleLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-		
-		subtitleLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 8.0).isActive = true
-		subtitleLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20.0).isActive = true
-		subtitleLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20.0).isActive = true
-	}
-	
-	func setupCloseButton() {
-		let closeButton = UIBarButtonItem(title: "Save",
-										  style: .done,
-										  target: self,
-										  action: #selector(saveAndClose))
-		
-		navigationItem.rightBarButtonItem = closeButton
-	}
-	
-	// MARK: - Actions
-	
-	@objc func saveAndClose() {
-		
-		//
-		// Save changes here
-		//
-		
-		dismiss(animated: true)
-	}
+class PageSheetWithDelegateTransitionViewController: TwoLabelsViewController {
+    
+    // MARK: - Init
+    
+    init() {
+        super.init(
+            title: "Page sheet + Action on close",
+            subtitle: "(Try to swipe down)"
+        )
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    // MARK: - Lifecycle
+    
+    override func loadView() {
+        super.loadView()
+        
+        isModalInPresentation = true
+        navigationController?.presentationController?.delegate = self
+    }
+    
+    override func setupCloseButton() {
+        navigationItem.rightBarButtonItem = UIBarButtonItem(
+            title: "Save",
+            style: .done,
+            target: self,
+            action: #selector(saveAndClose)
+        )
+    }
+    
+    // MARK: - Actions
+    
+    @objc func saveAndClose() {
+        
+        //
+        // Save changes here
+        //
+        
+        dismiss(animated: true)
+    }
 }
 
 // MARK: - UIAdaptivePresentationControllerDelegate
 
 extension PageSheetWithDelegateTransitionViewController: UIAdaptivePresentationControllerDelegate {
-	
-	func presentationControllerDidAttemptToDismiss(_ presentationController: UIPresentationController) {
-		let alert = UIAlertController(title: "You made some changes.",
-									  message: nil,
-									  preferredStyle: .actionSheet)
-		
-		alert.addAction(UIAlertAction(
-			title: "Save",
-			style: .default,
-			handler: { [weak self] _ in
-				self?.saveAndClose()
-			}))
-		
-		alert.addAction(UIAlertAction(
-			title: "Discard changes",
-			style: .destructive,
-			handler: { [weak self] _ in
-				self?.dismiss(animated: true)
-			}))
-		
-		alert.addAction(UIAlertAction(
-			title: "Cancel",
-			style: .cancel,
-			handler: nil))
-		
-		present(alert, animated: true)
-	}
+    
+    func presentationControllerDidAttemptToDismiss(_ presentationController: UIPresentationController) {
+        let alert = UIAlertController(title: "You made some changes.",
+                                      message: nil,
+                                      preferredStyle: .actionSheet)
+        
+        alert.addAction(UIAlertAction(
+            title: "Save",
+            style: .default,
+            handler: { [weak self] _ in
+                self?.saveAndClose()
+            }))
+        
+        alert.addAction(UIAlertAction(
+            title: "Discard changes",
+            style: .destructive,
+            handler: { [weak self] _ in
+                self?.dismiss(animated: true)
+            }))
+        
+        alert.addAction(UIAlertAction(
+            title: "Cancel",
+            style: .cancel,
+            handler: nil))
+        
+        present(alert, animated: true)
+    }
 }

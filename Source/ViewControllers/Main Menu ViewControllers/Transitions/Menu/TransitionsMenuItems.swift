@@ -190,8 +190,9 @@ struct TransitionsMenuItems {
 		return MenuItem(
 			name: "Sheet, resizable (medium -> large)",
 			clickHandler: { parentViewController in
-				let viewController = SingleLabelViewController(
-					labelText: "Sheet, resizable\n(medium -> large)",
+				let viewController = TwoLabelsViewController(
+					title: "Sheet, medium + large",
+                    subtitle: "(Swipe up & down to resize)",
 					withCloseButton: false
 				)
 				if let sheet = viewController.sheetPresentationController {

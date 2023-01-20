@@ -61,14 +61,16 @@ class SingleLabelViewController: UIViewController {
 	}
 	
 	func setupCloseButton() {
-		if withCloseButton {
-			let closeButton = UIBarButtonItem(title: "Close",
-											  style: .done,
-											  target: self,
-											  action: #selector(close))
-			
-			navigationItem.rightBarButtonItem = closeButton
-		}
+        guard withCloseButton else {
+            return
+        }
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(
+            title: "Close",
+            style: .done,
+            target: self,
+            action: #selector(close)
+        )
 	}
 	
 	// MARK: - Actions

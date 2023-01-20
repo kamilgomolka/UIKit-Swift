@@ -151,6 +151,7 @@
 		26F626F4281906AF00F384DD /* SimpleTabbarChild3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F626EE281906AF00F384DD /* SimpleTabbarChild3.swift */; };
 		26F626F5281906AF00F384DD /* SimpleTabbarChild1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F626EF281906AF00F384DD /* SimpleTabbarChild1.swift */; };
 		26F626FB281913B800F384DD /* BadgeTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F626FA281913B800F384DD /* BadgeTabbarViewController.swift */; };
+		A56AF4B1297AD35900A2D332 /* TwoLabelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56AF4B0297AD35900A2D332 /* TwoLabelsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -301,6 +302,7 @@
 		26F626EE281906AF00F384DD /* SimpleTabbarChild3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTabbarChild3.swift; sourceTree = "<group>"; };
 		26F626EF281906AF00F384DD /* SimpleTabbarChild1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTabbarChild1.swift; sourceTree = "<group>"; };
 		26F626FA281913B800F384DD /* BadgeTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeTabbarViewController.swift; sourceTree = "<group>"; };
+		A56AF4B0297AD35900A2D332 /* TwoLabelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLabelsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1047,6 +1049,7 @@
 				26B4310327E11E1600F00210 /* BaseViewController.swift */,
 				268AEF60280920CE006E8838 /* SingleLabelViewController.swift */,
 				26DBD4202801DE6D00BF2FCA /* StackViewController.swift */,
+				A56AF4B0297AD35900A2D332 /* TwoLabelsViewController.swift */,
 			);
 			path = "Base ViewController";
 			sourceTree = "<group>";
@@ -1300,6 +1303,7 @@
 				2620623727F32AE000FD0CF3 /* OtherButtonsViewController.swift in Sources */,
 				26484F6A2806CBEE00002EE3 /* ScrollViewTwoDirectionsViewController.swift in Sources */,
 				2620623427F32AE000FD0CF3 /* ButtonImagePlacementViewController.swift in Sources */,
+				A56AF4B1297AD35900A2D332 /* TwoLabelsViewController.swift in Sources */,
 				266EF05A281C9582000E7742 /* SwitchViewController.swift in Sources */,
 				26859E6E2808876900E233BB /* CollectionViewBadgeViewController.swift in Sources */,
 				26ED8F482809683000D03738 /* TableViewSwipeActionsViewController.swift in Sources */,
