@@ -22,7 +22,11 @@ struct ScrollViewMenuItems {
 			MenuItem(
 				name: "Two directions",
 				viewControllerProvider: { ScrollViewTwoDirectionsViewController() }
-			)
+			),
+            MenuItem(
+                name: "Paging enabled",
+                viewControllerProvider: { ScrollViewWithPagingViewController() }
+            )
 		]
 	}
 }

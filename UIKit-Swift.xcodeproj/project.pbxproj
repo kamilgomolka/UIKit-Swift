@@ -152,6 +152,7 @@
 		26F626F5281906AF00F384DD /* SimpleTabbarChild1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F626EF281906AF00F384DD /* SimpleTabbarChild1.swift */; };
 		26F626FB281913B800F384DD /* BadgeTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F626FA281913B800F384DD /* BadgeTabbarViewController.swift */; };
 		A56AF4B1297AD35900A2D332 /* TwoLabelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56AF4B0297AD35900A2D332 /* TwoLabelsViewController.swift */; };
+		A56AF83E2989570200A2D332 /* ScrollViewWithPagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56AF83D2989570200A2D332 /* ScrollViewWithPagingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -303,6 +304,7 @@
 		26F626EF281906AF00F384DD /* SimpleTabbarChild1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTabbarChild1.swift; sourceTree = "<group>"; };
 		26F626FA281913B800F384DD /* BadgeTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeTabbarViewController.swift; sourceTree = "<group>"; };
 		A56AF4B0297AD35900A2D332 /* TwoLabelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLabelsViewController.swift; sourceTree = "<group>"; };
+		A56AF83D2989570200A2D332 /* ScrollViewWithPagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewWithPagingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -547,6 +549,7 @@
 				26484F622806CBEE00002EE3 /* ScrollViewHorizontalViewController.swift */,
 				26484F642806CBEE00002EE3 /* ScrollViewTwoDirectionsViewController.swift */,
 				26484F632806CBEE00002EE3 /* ScrollViewVerticalViewController.swift */,
+				A56AF83D2989570200A2D332 /* ScrollViewWithPagingViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -1299,6 +1302,7 @@
 				26B7C74228109AA0001889A2 /* BaseToolbarViewController.swift in Sources */,
 				2631536828030F9800939451 /* TextFieldBorderStyleViewController.swift in Sources */,
 				26484FB528070C5B00002EE3 /* TableViewSeparatorStyleLineViewController.swift in Sources */,
+				A56AF83E2989570200A2D332 /* ScrollViewWithPagingViewController.swift in Sources */,
 				26484FB928070C5B00002EE3 /* CellStyleLongTextViewController.swift in Sources */,
 				2620623727F32AE000FD0CF3 /* OtherButtonsViewController.swift in Sources */,
 				26484F6A2806CBEE00002EE3 /* ScrollViewTwoDirectionsViewController.swift in Sources */,
